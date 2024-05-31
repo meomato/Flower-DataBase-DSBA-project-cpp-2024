@@ -55,11 +55,14 @@ static constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers:
     "processQualityVector",
     "processContainerVector",
     "processPopularityVector",
-    "on_pb_qualities_clicked"
+    "on_pb_qualities_clicked",
+    "on_toolButton_clicked",
+    "on_toolButton_2_clicked",
+    "addToCompare"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
-    uint offsetsAndSizes[34];
+    uint offsetsAndSizes[40];
     char stringdata0[11];
     char stringdata1[9];
     char stringdata2[1];
@@ -77,6 +80,9 @@ struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
     char stringdata14[23];
     char stringdata15[24];
     char stringdata16[24];
+    char stringdata17[22];
+    char stringdata18[24];
+    char stringdata19[13];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSMainWindowENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -98,7 +104,10 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMainWindowENDCLASS_t qt_meta_st
         QT_MOC_LITERAL(188, 20),  // "processQualityVector"
         QT_MOC_LITERAL(209, 22),  // "processContainerVector"
         QT_MOC_LITERAL(232, 23),  // "processPopularityVector"
-        QT_MOC_LITERAL(256, 23)   // "on_pb_qualities_clicked"
+        QT_MOC_LITERAL(256, 23),  // "on_pb_qualities_clicked"
+        QT_MOC_LITERAL(280, 21),  // "on_toolButton_clicked"
+        QT_MOC_LITERAL(302, 23),  // "on_toolButton_2_clicked"
+        QT_MOC_LITERAL(326, 12)   // "addToCompare"
     },
     "MainWindow",
     "showCard",
@@ -116,7 +125,10 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMainWindowENDCLASS_t qt_meta_st
     "processQualityVector",
     "processContainerVector",
     "processPopularityVector",
-    "on_pb_qualities_clicked"
+    "on_pb_qualities_clicked",
+    "on_toolButton_clicked",
+    "on_toolButton_2_clicked",
+    "addToCompare"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -128,7 +140,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-      12,   14, // methods
+      15,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -136,18 +148,21 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   86,    2, 0x08,    1 /* Private */,
-       3,    1,   87,    2, 0x08,    2 /* Private */,
-       5,    1,   90,    2, 0x08,    4 /* Private */,
-       7,    1,   93,    2, 0x08,    6 /* Private */,
-       8,    1,   96,    2, 0x08,    8 /* Private */,
-       9,    1,   99,    2, 0x08,   10 /* Private */,
-       9,    0,  102,    2, 0x28,   12 /* Private | MethodCloned */,
-      11,    1,  103,    2, 0x08,   13 /* Private */,
-      13,    1,  106,    2, 0x08,   15 /* Private */,
-      14,    1,  109,    2, 0x08,   17 /* Private */,
-      15,    0,  112,    2, 0x08,   19 /* Private */,
-      16,    1,  113,    2, 0x08,   20 /* Private */,
+       1,    0,  104,    2, 0x08,    1 /* Private */,
+       3,    1,  105,    2, 0x08,    2 /* Private */,
+       5,    1,  108,    2, 0x08,    4 /* Private */,
+       7,    1,  111,    2, 0x08,    6 /* Private */,
+       8,    1,  114,    2, 0x08,    8 /* Private */,
+       9,    1,  117,    2, 0x08,   10 /* Private */,
+       9,    0,  120,    2, 0x28,   12 /* Private | MethodCloned */,
+      11,    1,  121,    2, 0x08,   13 /* Private */,
+      13,    1,  124,    2, 0x08,   15 /* Private */,
+      14,    1,  127,    2, 0x08,   17 /* Private */,
+      15,    0,  130,    2, 0x08,   19 /* Private */,
+      16,    1,  131,    2, 0x08,   20 /* Private */,
+      17,    0,  134,    2, 0x08,   22 /* Private */,
+      18,    0,  135,    2, 0x08,   23 /* Private */,
+      19,    1,  136,    2, 0x08,   24 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -162,6 +177,9 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
     QMetaType::Void, QMetaType::Bool,   12,
     QMetaType::Void,
     QMetaType::Void, QMetaType::Bool,    6,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Bool,   12,
 
        0        // eod
 };
@@ -207,6 +225,13 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_pb_qualities_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        // method 'on_toolButton_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_toolButton_2_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'addToCompare'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<bool, std::false_type>
     >,
     nullptr
@@ -230,6 +255,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 9: _t->processContainerVector((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         case 10: _t->processPopularityVector(); break;
         case 11: _t->on_pb_qualities_clicked((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
+        case 12: _t->on_toolButton_clicked(); break;
+        case 13: _t->on_toolButton_2_clicked(); break;
+        case 14: _t->addToCompare((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         default: ;
         }
     }
@@ -254,13 +282,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 12)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 12;
+        _id -= 15;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 12)
+        if (_id < 15)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 12;
+        _id -= 15;
     }
     return _id;
 }

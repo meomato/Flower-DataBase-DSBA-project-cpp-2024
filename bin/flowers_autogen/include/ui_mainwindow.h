@@ -10,7 +10,6 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QGridLayout>
@@ -32,56 +31,41 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QTableWidget *tableWidget;
     QLabel *label;
     QLineEdit *lineEdit;
     QToolButton *toolButton;
     QToolButton *toolButton_2;
     QToolButton *toolButton_3;
+    QTableWidget *tableWidget;
     QMenuBar *menubar;
     QStatusBar *statusbar;
     QDockWidget *dockWidget;
     QWidget *dockWidgetContents;
     QGridLayout *gridLayout;
+    QTableWidget *tw_filterList;
     QVBoxLayout *verticalLayout;
     QPushButton *pb_flowerGroup;
     QPushButton *pb_qualities;
     QPushButton *pb_container;
     QPushButton *pb_popularity;
-    QTableWidget *tw_filterList;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(874, 600);
+        MainWindow->resize(916, 609);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        tableWidget = new QTableWidget(centralwidget);
-        if (tableWidget->columnCount() < 2)
-            tableWidget->setColumnCount(2);
-        QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
-        tableWidget->setHorizontalHeaderItem(0, __qtablewidgetitem);
-        QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
-        tableWidget->setHorizontalHeaderItem(1, __qtablewidgetitem1);
-        tableWidget->setObjectName("tableWidget");
-        tableWidget->setGeometry(QRect(60, 150, 520, 401));
-        tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
-        tableWidget->setSelectionBehavior(QAbstractItemView::SelectItems);
-        tableWidget->horizontalHeader()->setVisible(false);
-        tableWidget->horizontalHeader()->setDefaultSectionSize(250);
-        tableWidget->verticalHeader()->setVisible(false);
-        tableWidget->verticalHeader()->setDefaultSectionSize(250);
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(100, 10, 331, 51));
+        label->setGeometry(QRect(160, 20, 331, 51));
         QFont font;
         font.setPointSize(35);
         label->setFont(font);
         label->setAlignment(Qt::AlignCenter);
         lineEdit = new QLineEdit(centralwidget);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(140, 90, 261, 41));
+        lineEdit->setGeometry(QRect(190, 100, 261, 41));
         toolButton = new QToolButton(centralwidget);
         toolButton->setObjectName("toolButton");
         toolButton->setGeometry(QRect(510, 10, 21, 21));
@@ -91,13 +75,25 @@ public:
         toolButton_3 = new QToolButton(centralwidget);
         toolButton_3->setObjectName("toolButton_3");
         toolButton_3->setGeometry(QRect(570, 10, 20, 21));
-        QIcon icon;
-        icon.addFile(QString::fromUtf8("../../../Downloads/user_1077063.png"), QSize(), QIcon::Normal, QIcon::Off);
-        toolButton_3->setIcon(icon);
+        tableWidget = new QTableWidget(centralwidget);
+        if (tableWidget->columnCount() < 2)
+            tableWidget->setColumnCount(2);
+        QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
+        tableWidget->setHorizontalHeaderItem(0, __qtablewidgetitem);
+        QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
+        tableWidget->setHorizontalHeaderItem(1, __qtablewidgetitem1);
+        tableWidget->setObjectName("tableWidget");
+        tableWidget->setGeometry(QRect(41, 181, 541, 361));
+        tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
+        tableWidget->setSelectionBehavior(QAbstractItemView::SelectItems);
+        tableWidget->horizontalHeader()->setVisible(false);
+        tableWidget->horizontalHeader()->setDefaultSectionSize(250);
+        tableWidget->verticalHeader()->setVisible(false);
+        tableWidget->verticalHeader()->setDefaultSectionSize(250);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 874, 25));
+        menubar->setGeometry(QRect(0, 0, 916, 25));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -108,6 +104,17 @@ public:
         dockWidgetContents->setObjectName("dockWidgetContents");
         gridLayout = new QGridLayout(dockWidgetContents);
         gridLayout->setObjectName("gridLayout");
+        tw_filterList = new QTableWidget(dockWidgetContents);
+        if (tw_filterList->columnCount() < 1)
+            tw_filterList->setColumnCount(1);
+        QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
+        tw_filterList->setHorizontalHeaderItem(0, __qtablewidgetitem2);
+        tw_filterList->setObjectName("tw_filterList");
+        tw_filterList->horizontalHeader()->setVisible(false);
+        tw_filterList->verticalHeader()->setVisible(false);
+
+        gridLayout->addWidget(tw_filterList, 1, 0, 1, 1);
+
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName("verticalLayout");
         pb_flowerGroup = new QPushButton(dockWidgetContents);
@@ -137,17 +144,6 @@ public:
 
         gridLayout->addLayout(verticalLayout, 0, 0, 1, 1);
 
-        tw_filterList = new QTableWidget(dockWidgetContents);
-        if (tw_filterList->columnCount() < 1)
-            tw_filterList->setColumnCount(1);
-        QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
-        tw_filterList->setHorizontalHeaderItem(0, __qtablewidgetitem2);
-        tw_filterList->setObjectName("tw_filterList");
-        tw_filterList->horizontalHeader()->setVisible(false);
-        tw_filterList->verticalHeader()->setVisible(false);
-
-        gridLayout->addWidget(tw_filterList, 1, 0, 1, 1);
-
         dockWidget->setWidget(dockWidgetContents);
         MainWindow->addDockWidget(Qt::LeftDockWidgetArea, dockWidget);
 
@@ -160,9 +156,10 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Bloom Baze", nullptr));
-        toolButton->setText(QString());
+        lineEdit->setText(QString());
+        toolButton->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         toolButton_2->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
-        toolButton_3->setText(QString());
+        toolButton_3->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         pb_flowerGroup->setText(QCoreApplication::translate("MainWindow", "Flower group", nullptr));
         pb_qualities->setText(QCoreApplication::translate("MainWindow", "Qualities", nullptr));
         pb_container->setText(QCoreApplication::translate("MainWindow", "Container", nullptr));

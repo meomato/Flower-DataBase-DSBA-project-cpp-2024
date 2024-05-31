@@ -9,7 +9,7 @@
 #include <QSettings>
 #include <QRadioButton>
 #include "flowercard.h"
-
+#include "compflow.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -27,6 +27,7 @@ public:
 
 private slots:
     void showCard();
+
     void on_lineEdit_textChanged(const QString &arg1);
 
     void on_pb_flowerGroup_clicked(bool checked);
@@ -47,12 +48,19 @@ private slots:
 
     void on_pb_qualities_clicked(bool checked);
 
+    void on_toolButton_clicked();
+
+    void on_toolButton_2_clicked();
+
+    void addToCompare(bool isChecked);
+
 private:
     Ui::MainWindow *ui;
     QMap<int, QVector<QString>> flowersDb{};
     QVector<QString> topics{};
     QTableWidget *tw{};
     FlowerCard *fcard{};
+    CompFlow *compFlow{};
     QVector<FlowerContainer*> fcVector{};
 
     void openCsv();

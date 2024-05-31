@@ -12,6 +12,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     settings = new QSettings("stat", QSettings::IniFormat, this);
 
+    compFlow = new CompFlow();
+
     openCsv();
 
     tw = ui->tableWidget;
@@ -20,6 +22,8 @@ MainWindow::MainWindow(QWidget *parent)
     fcard = new FlowerCard();
 
     ui->tw_filterList->setColumnWidth(0, 250);
+
+    setWindowTitle("Bloom Baze | Home Page");
 }
 
 MainWindow::~MainWindow()
@@ -74,7 +78,7 @@ QStringList MainWindow::split(QString full)
 
 void MainWindow::openCsv()
 {
-    QString fileName = QFileDialog::getOpenFileName(this, tr("Opening the flower data base"), "", tr("CSV file (*.csv)"));
+    QString fileName = QFileDialog::getOpenFileName(this, tr("Opening flower database"), "", tr("CSV file (*.csv)"));
     QFile file(fileName);
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
@@ -217,6 +221,7 @@ void MainWindow::loadFlowers(QString subString)
         fc->vDataFlowers.push_back(flowersDb.value(2).at(iterIndex));
 
         connect(fc, &FlowerContainer::click, this, &MainWindow::showCard);
+        connect(fc, &FlowerContainer::checked, this, &MainWindow::addToCompare);
 
         QDir currDir("./img/"+flowerName);
         QString fAddress{};
@@ -418,5 +423,43 @@ void MainWindow::on_pb_qualities_clicked(bool checked)
             connect(chBox, &QCheckBox::clicked, this, &MainWindow::processQualityVector);
             ui->tw_filterList->setCellWidget(newRowNum,  0, chBox);
         }
+    }
+}
+
+
+
+void MainWindow::on_toolButton_clicked()
+{
+    if(fcCompareVector.length())
+    {
+        compFlow->setCompVector(fcCompareVector);
+        compFlow->show();
+    }
+}
+
+
+void MainWindow::on_toolButton_2_clicked()
+{
+    for(auto fc: fcCompareVector)
+    {
+        fc->unChecked();
+    }
+
+    fcCompareVector.clear();
+    compFlow->clearWidgets();
+}
+
+
+
+void MainWindow::addToCompare(bool isChecked)
+{
+    FlowerContainer *currFc = qobject_cast<FlowerContainer*>(sender());
+    if(isChecked)
+    {
+        fcCompareVector << currFc;
+    }
+    else
+    {
+        fcCompareVector.remove(fcCompareVector.indexOf(currFc));
     }
 }

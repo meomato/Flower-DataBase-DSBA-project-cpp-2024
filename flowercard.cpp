@@ -19,6 +19,8 @@ FlowerCard::FlowerCard(QWidget *parent)
         sliderFl->setPixmap(pix);
     });
     ui->gridLayout->addWidget(sliderFl,0,0);
+
+    setWindowTitle("Description of the flower");
 }
 
 FlowerCard::~FlowerCard()
@@ -75,8 +77,8 @@ void FlowerCard::setFlowContainer(FlowerContainer *p_fc)
 
     ui->tableWidget_2->setColumnWidth(0, 340);
 
-    ui->tableWidget_2->setRowHeight(0, 95);
-    ui->tableWidget_2->setRowHeight(1, 95);
+    ui->tableWidget_2->setRowHeight(0, 250);
+    ui->tableWidget_2->setRowHeight(1, 250);
 
 
     fIndex = 0;

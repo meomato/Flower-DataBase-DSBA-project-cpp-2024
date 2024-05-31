@@ -1,26 +1,89 @@
 # ninja log v5
-1253	5459	7379933474441610	CMakeFiles/flowers.dir/gardnerwindow.cpp.obj	cf8e5ba9f587a01a
-63	441	7380002622575484	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
-1229	4545	7379933465288588	CMakeFiles/flowers.dir/flowercontainer.cpp.obj	32a34ecc400a6b82
-1589	5498	7379987422168220	CMakeFiles/flowers.dir/gardenerform.cpp.obj	93d555a5d13e93c5
-32	1031	7380004438809463	build.ninja	e3335843df0464bd
-63	441	7380002622575484	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
-442	5082	7380002670203372	CMakeFiles/flowers.dir/flowers_autogen/mocs_compilation.cpp.obj	527152929cd7f42e
-1234	4237	7379933462215285	CMakeFiles/flowers.dir/flowerlabel.cpp.obj	88b8de08e674d88c
-1378	5344	7380001613335929	CMakeFiles/flowers.dir/main.cpp.obj	a508fdb8ca6fdfa6
-63	441	7380002622575484	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
-457	4545	7380002664820737	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
-1573	6124	7379987428474232	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
-449	8070	7380002699983181	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
-9003	9526	7380001654786582	flowers.exe	9d705a0ee7eb37ff
-63	441	7380002622575484	flowers_autogen/timestamp	6a59375eea65485b
-10	808	7380004438809463	build.ninja	e3335843df0464bd
-44	427	7380004443193326	flowers_autogen/timestamp	6a59375eea65485b
-44	427	7380004443193326	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
-44	427	7380004443193326	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
-44	427	7380004443193326	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
-443	3897	7380004479433226	CMakeFiles/flowers.dir/flowercontainer.cpp.obj	32a34ecc400a6b82
-451	4610	7380004486474002	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
-428	5308	7380004493434169	CMakeFiles/flowers.dir/flowers_autogen/mocs_compilation.cpp.obj	527152929cd7f42e
-435	7936	7380004519702067	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
-7937	8336	7380004523600387	flowers.exe	9d705a0ee7eb37ff
+75	632	7380198688637848	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+1474	6667	7380047618619908	CMakeFiles/flowers.dir/flowers_autogen/mocs_compilation.cpp.obj	527152929cd7f42e
+2123	6640	7380015892696909	CMakeFiles/flowers.dir/flowerlabel.cpp.obj	88b8de08e674d88c
+1481	5825	7380047610265599	CMakeFiles/flowers.dir/main.cpp.obj	a508fdb8ca6fdfa6
+75	632	7380198688637848	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+684	5370	7380198736006709	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
+676	5437	7380198736715799	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+665	9692	7380198779044376	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+9692	10253	7380198784625787	flowers.exe	e2a31f4e1a623eb6
+75	632	7380198688637848	flowers_autogen/timestamp	6a59375eea65485b
+75	632	7380198688637848	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+2165	8852	7380015914859338	CMakeFiles/flowers.dir/gardnerwindow.cpp.obj	cf8e5ba9f587a01a
+1645	5449	7380019132597935	CMakeFiles/flowers.dir/gardenerform.cpp.obj	93d555a5d13e93c5
+2116	6946	7380015895782547	CMakeFiles/flowers.dir/flowercontainer.cpp.obj	32a34ecc400a6b82
+67	492	7380221130237827	flowers_autogen/timestamp	6a59375eea65485b
+67	492	7380221130237827	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+67	492	7380221130237827	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+67	492	7380221130237827	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+527	4421	7380221169523012	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+533	4484	7380221170020638	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
+520	7714	7380221202304163	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+7714	8130	7380221206457264	flowers.exe	e2a31f4e1a623eb6
+13	335	7381071900694132	flowers_autogen/timestamp	6a59375eea65485b
+13	335	7381071900694132	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+13	335	7381071900694132	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+13	335	7381071900694132	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+356	5008	7381071947293015	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+360	5059	7381071947874774	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
+352	7327	7381071970557407	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+7327	7971	7381071976837316	flowers.exe	e2a31f4e1a623eb6
+36	387	7381076528962895	flowers_autogen/timestamp	6a59375eea65485b
+36	387	7381076528962895	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+36	387	7381076528962895	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+36	387	7381076528962895	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+406	3423	7381076559350819	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+410	3447	7381076559616790	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
+401	5083	7381076575918732	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+5083	5446	7381076579592657	flowers.exe	e2a31f4e1a623eb6
+51	292	7381077145738582	flowers_autogen/timestamp	6a59375eea65485b
+51	292	7381077145738582	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+51	292	7381077145738582	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+51	292	7381077145738582	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+310	2401	7381077166756594	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+306	4273	7381077185397110	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+53	296	7381077900688880	flowers_autogen/timestamp	6a59375eea65485b
+53	296	7381077900688880	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+53	296	7381077900688880	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+53	296	7381077900688880	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+319	2363	7381077921372908	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
+315	2421	7381077921961350	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+311	4211	7381077939825189	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+4211	4437	7381077942013165	flowers.exe	e2a31f4e1a623eb6
+50	271	7381078438503986	flowers_autogen/timestamp	6a59375eea65485b
+50	271	7381078438503986	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+50	271	7381078438503986	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+50	271	7381078438503986	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+295	2335	7381078459172334	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
+291	2414	7381078459903264	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+287	4175	7381078477475587	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+4175	4403	7381078479622209	flowers.exe	e2a31f4e1a623eb6
+44	288	7381078835348332	flowers_autogen/timestamp	6a59375eea65485b
+44	288	7381078835348332	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+44	288	7381078835348332	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+44	288	7381078835348332	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+309	2308	7381078855507456	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+305	4250	7381078874886020	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+37	249	7381079317192345	flowers_autogen/timestamp	6a59375eea65485b
+37	249	7381079317192345	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+37	249	7381079317192345	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+37	249	7381079317192345	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+267	2366	7381079338317062	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+263	4210	7381079356804283	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+33	254	7381079475234261	flowers_autogen/timestamp	6a59375eea65485b
+33	254	7381079475234261	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+33	254	7381079475234261	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+33	254	7381079475234261	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+278	2346	7381079496062564	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
+274	2382	7381079496501453	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+270	4401	7381079516552950	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+4402	4633	7381079518849880	flowers.exe	e2a31f4e1a623eb6
+46	253	7381080314248071	flowers_autogen/timestamp	6a59375eea65485b
+46	253	7381080314248071	flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+46	253	7381080314248071	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/timestamp	6a59375eea65485b
+46	253	7381080314248071	C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/flowers_autogen/mocs_compilation.cpp	6a59375eea65485b
+277	2382	7381080335467641	CMakeFiles/flowers.dir/compflow.cpp.obj	de7cb96517651179
+273	2453	7381080336243679	CMakeFiles/flowers.dir/flowercard.cpp.obj	f526e2069bf85709
+268	4391	7381080355503211	CMakeFiles/flowers.dir/mainwindow.cpp.obj	cb93290c507cfcff
+4391	4622	7381080357809502	flowers.exe	e2a31f4e1a623eb6
