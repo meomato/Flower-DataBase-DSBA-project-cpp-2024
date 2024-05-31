@@ -5,6 +5,9 @@ flowers_autogen/timestamp: \
   CMakeFiles/3.28.1/CMakeRCCompiler.cmake \
   CMakeFiles/3.28.1/CMakeSystem.cmake \
   flowers_autogen/moc_predefs.h \
+  C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercard.cpp \
+  C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercard.h \
+  C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercard.ui \
   C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercontainer.cpp \
   C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercontainer.h \
   C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowerlabel.cpp \

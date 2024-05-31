@@ -5,6 +5,8 @@ flowers_autogen/timestamp: \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/bin/CMakeFiles/3.28.1/CMakeRCCompiler.cmake \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/bin/CMakeFiles/3.28.1/CMakeSystem.cmake \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/bin/flowers_autogen/moc_predefs.h \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercard.cpp \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercard.h \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercontainer.cpp \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercontainer.h \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowerlabel.cpp \
@@ -610,5 +612,6 @@ flowers_autogen/timestamp: \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercard.ui \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/mainwindow.ui \
 	C:/msys64/mingw64/bin/cmake.exe

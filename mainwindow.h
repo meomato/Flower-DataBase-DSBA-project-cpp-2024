@@ -8,6 +8,8 @@
 #include <QListWidgetItem>
 #include <QSettings>
 #include <QRadioButton>
+#include "flowercard.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -24,6 +26,7 @@ public:
     ~MainWindow();
 
 private slots:
+    void showCard();
     void on_lineEdit_textChanged(const QString &arg1);
 
     void on_pb_flowerGroup_clicked(bool checked);
@@ -49,15 +52,20 @@ private:
     QMap<int, QVector<QString>> flowersDb{};
     QVector<QString> topics{};
     QTableWidget *tw{};
+    FlowerCard *fcard{};
     QVector<FlowerContainer*> fcVector{};
 
     void openCsv();
+
+    QVector<FlowerContainer*> fcCompareVector{};
+
 
     QStringList split(QString full);
 
     QVector<QString> flowGroupVector{};
     QVector<QString> qualitiesVector{};
     QVector<QString> containerVector{};
+    QVector<QString> popularityVector{};
     QMultiMap<int, int> popularityMMap{};
 
     QMenu *menu{};

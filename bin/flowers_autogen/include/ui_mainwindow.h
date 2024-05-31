@@ -10,6 +10,7 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QGridLayout>
@@ -90,10 +91,13 @@ public:
         toolButton_3 = new QToolButton(centralwidget);
         toolButton_3->setObjectName("toolButton_3");
         toolButton_3->setGeometry(QRect(570, 10, 20, 21));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("../../../Downloads/user_1077063.png"), QSize(), QIcon::Normal, QIcon::Off);
+        toolButton_3->setIcon(icon);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 874, 16));
+        menubar->setGeometry(QRect(0, 0, 874, 25));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -156,9 +160,9 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Bloom Baze", nullptr));
-        toolButton->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
+        toolButton->setText(QString());
         toolButton_2->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
-        toolButton_3->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
+        toolButton_3->setText(QString());
         pb_flowerGroup->setText(QCoreApplication::translate("MainWindow", "Flower group", nullptr));
         pb_qualities->setText(QCoreApplication::translate("MainWindow", "Qualities", nullptr));
         pb_container->setText(QCoreApplication::translate("MainWindow", "Container", nullptr));

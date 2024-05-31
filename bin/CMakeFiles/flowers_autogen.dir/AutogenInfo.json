@@ -244,6 +244,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowercard.h",
+			"MU",
+			"EWIEGA46WW/moc_flowercard.cpp",
+			null
+		],
+		[
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowercontainer.h",
 			"MU",
 			"EWIEGA46WW/moc_flowercontainer.cpp",
@@ -334,6 +340,11 @@
 	"SETTINGS_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/CMakeFiles/flowers_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowercard.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowercontainer.cpp",
 			"MU",

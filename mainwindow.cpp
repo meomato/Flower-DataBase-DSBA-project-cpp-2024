@@ -11,10 +11,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     settings = new QSettings("stat", QSettings::IniFormat, this);
+
     openCsv();
 
     tw = ui->tableWidget;
     loadFlowers();
+
+    fcard = new FlowerCard();
 
     ui->tw_filterList->setColumnWidth(0, 250);
 }
@@ -22,6 +25,15 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::showCard()
+{
+    FlowerContainer *fCont = qobject_cast<FlowerContainer *>(sender());
+    int counter = settings->value(fCont->getImgDesk()).toInt();
+    settings->setValue(fCont->getImgDesk(), ++counter);
+    fcard->setFlowContainer(fCont);
+    fcard->show();
 }
 
 QStringList MainWindow::split(QString full)
@@ -62,7 +74,7 @@ QStringList MainWindow::split(QString full)
 
 void MainWindow::openCsv()
 {
-    QString fileName = QFileDialog::getOpenFileName(this, tr("Открытие базы цветов"), "", tr("CSV файл (*.csv)"));
+    QString fileName = QFileDialog::getOpenFileName(this, tr("Opening the flower data base"), "", tr("CSV file (*.csv)"));
     QFile file(fileName);
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
@@ -203,6 +215,8 @@ void MainWindow::loadFlowers(QString subString)
         fc->vDataFlowers.push_back(flowersDb.value(3).at(iterIndex));
         fc->vDataFlowers.push_back(flowersDb.value(8).at(iterIndex));
         fc->vDataFlowers.push_back(flowersDb.value(2).at(iterIndex));
+
+        connect(fc, &FlowerContainer::click, this, &MainWindow::showCard);
 
         QDir currDir("./img/"+flowerName);
         QString fAddress{};
@@ -369,10 +383,10 @@ void MainWindow::on_pb_popularity_clicked(bool checked)
         ui->pb_popularity->setChecked(true);
     }
 
-    QRadioButton *rbMaxBegin = new QRadioButton("Сначала популярные",this);
+    QRadioButton *rbMaxBegin = new QRadioButton("Most popular",this);
     connect(rbMaxBegin, &QCheckBox::clicked, this, &MainWindow::processPopularityVector);
     ui->tw_filterList->setCellWidget(0,  0, rbMaxBegin);
-    QRadioButton *rbMaxEnd = new QRadioButton("Сначала не популярные", this);
+    QRadioButton *rbMaxEnd = new QRadioButton("Least popular", this);
     connect(rbMaxEnd, &QCheckBox::clicked, this, &MainWindow::processPopularityVector);
     ui->tw_filterList->setCellWidget(1,  0, rbMaxEnd);
 }
