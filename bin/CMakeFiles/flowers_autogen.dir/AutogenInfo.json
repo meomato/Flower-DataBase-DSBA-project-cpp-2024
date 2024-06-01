@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"BUILD_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/flowers_autogen",
 	"CMAKE_BINARY_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin",
 	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin",
@@ -12,6 +13,21 @@
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake",
 		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake",
+=======
+	"BUILD_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/flowers_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers",
+	"CMAKE_EXECUTABLE" : "C:/msys64/mingw64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/CMakeLists.txt",
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/CMakeFiles/3.28.1/CMakeSystem.cmake",
+		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake",
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake",
+>>>>>>> ac121dd2 (nearly there...)
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -24,7 +40,11 @@
 		"C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake",
+<<<<<<< HEAD
 		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/CMakeFiles/3.28.1/CMakeRCCompiler.cmake",
+=======
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/CMakeFiles/3.28.1/CMakeRCCompiler.cmake",
+>>>>>>> ac121dd2 (nearly there...)
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -238,45 +258,81 @@
 		"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
+<<<<<<< HEAD
 	"CMAKE_SOURCE_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1",
 	"DEP_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/flowers_autogen/deps",
+=======
+	"CMAKE_SOURCE_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers",
+	"DEP_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/flowers_autogen/deps",
+>>>>>>> ac121dd2 (nearly there...)
 	"DEP_FILE_RULE_NAME" : "flowers_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/compflow.h",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/compflow.h",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			"EWIEGA46WW/moc_compflow.cpp",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowercard.h",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/flowercard.h",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			"EWIEGA46WW/moc_flowercard.cpp",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowercontainer.h",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/flowercontainer.h",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			"EWIEGA46WW/moc_flowercontainer.cpp",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowerlabel.h",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/flowerlabel.h",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			"EWIEGA46WW/moc_flowerlabel.cpp",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/mainwindow.h",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/gardnerwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_gardnerwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/mainwindow.h",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+<<<<<<< HEAD
 	"INCLUDE_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/flowers_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/flowers_autogen/mocs_compilation.cpp",
+=======
+	"INCLUDE_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/flowers_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/flowers_autogen/mocs_compilation.cpp",
+>>>>>>> ac121dd2 (nearly there...)
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -333,46 +389,87 @@
 		"-c",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
+<<<<<<< HEAD
 	"MOC_PREDEFS_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/flowers_autogen/moc_predefs.h",
+=======
+	"MOC_PREDEFS_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/flowers_autogen/moc_predefs.h",
+>>>>>>> ac121dd2 (nearly there...)
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 10,
+<<<<<<< HEAD
 	"PARSE_CACHE_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/CMakeFiles/flowers_autogen.dir/ParseCache.txt",
+=======
+	"PARSE_CACHE_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/CMakeFiles/flowers_autogen.dir/ParseCache.txt",
+>>>>>>> ac121dd2 (nearly there...)
 	"QT_MOC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
+<<<<<<< HEAD
 	"SETTINGS_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/bin/CMakeFiles/flowers_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/compflow.cpp",
+=======
+	"SETTINGS_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/CMakeFiles/flowers_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/compflow.cpp",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowercard.cpp",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/flowercard.cpp",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowercontainer.cpp",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/flowercontainer.cpp",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/flowerlabel.cpp",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/flowerlabel.cpp",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/main.cpp",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/gardnerwindow.cpp",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			null
 		],
 		[
+<<<<<<< HEAD
 			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flow1/mainwindow.cpp",
+=======
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/mainwindow.cpp",
+>>>>>>> ac121dd2 (nearly there...)
 			"MU",
 			null
 		]

@@ -6,19 +6,70 @@
    <rect>
     <x>0</x>
     <y>0</y>
+<<<<<<< HEAD
     <width>916</width>
     <height>609</height>
+=======
+    <width>874</width>
+    <height>600</height>
+>>>>>>> ac121dd2 (nearly there...)
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+<<<<<<< HEAD
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>160</x>
       <y>20</y>
+=======
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>150</y>
+      <width>520</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectItems</enum>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>250</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>250</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string/>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string/>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+>>>>>>> ac121dd2 (nearly there...)
       <width>331</width>
       <height>51</height>
      </rect>
@@ -38,15 +89,23 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>190</x>
       <y>100</y>
+=======
+      <x>140</x>
+      <y>90</y>
+>>>>>>> ac121dd2 (nearly there...)
       <width>261</width>
       <height>41</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="text">
      <string/>
     </property>
+=======
+>>>>>>> ac121dd2 (nearly there...)
    </widget>
    <widget class="QToolButton" name="toolButton">
     <property name="geometry">
@@ -87,6 +146,7 @@
      <string>...</string>
     </property>
    </widget>
+<<<<<<< HEAD
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
@@ -125,14 +185,21 @@
      </property>
     </column>
    </widget>
+=======
+>>>>>>> ac121dd2 (nearly there...)
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
+<<<<<<< HEAD
      <width>916</width>
      <height>25</height>
+=======
+     <width>874</width>
+     <height>16</height>
+>>>>>>> ac121dd2 (nearly there...)
     </rect>
    </property>
   </widget>
@@ -143,6 +210,7 @@
    </attribute>
    <widget class="QWidget" name="dockWidgetContents">
     <layout class="QGridLayout" name="gridLayout">
+<<<<<<< HEAD
      <item row="1" column="0">
       <widget class="QTableWidget" name="tw_filterList">
        <attribute name="horizontalHeaderVisible">
@@ -158,6 +226,8 @@
        </column>
       </widget>
      </item>
+=======
+>>>>>>> ac121dd2 (nearly there...)
      <item row="0" column="0">
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
@@ -202,6 +272,24 @@
        </item>
       </layout>
      </item>
+<<<<<<< HEAD
+=======
+     <item row="1" column="0">
+      <widget class="QTableWidget" name="tw_filterList">
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string/>
+        </property>
+       </column>
+      </widget>
+     </item>
+>>>>>>> ac121dd2 (nearly there...)
     </layout>
    </widget>
   </widget>

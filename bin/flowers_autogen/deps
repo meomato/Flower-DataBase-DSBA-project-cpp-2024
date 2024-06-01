@@ -1,4 +1,5 @@
 flowers_autogen/timestamp: \
+<<<<<<< HEAD
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/CMakeLists.txt \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/bin/.qtc/package-manager/auto-setup.cmake \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/bin/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake \
@@ -17,6 +18,27 @@ flowers_autogen/timestamp: \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/main.cpp \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/mainwindow.cpp \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/mainwindow.h \
+=======
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/CMakeLists.txt \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/bin/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/bin/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/bin/CMakeFiles/3.28.1/CMakeRCCompiler.cmake \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/bin/CMakeFiles/3.28.1/CMakeSystem.cmake \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/bin/flowers_autogen/moc_predefs.h \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/compflow.cpp \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/compflow.h \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowercard.cpp \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowercard.h \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowercontainer.cpp \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowercontainer.h \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowerlabel.cpp \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowerlabel.h \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/gardnerwindow.cpp \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/gardnerwindow.h \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/main.cpp \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/mainwindow.cpp \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/mainwindow.h \
+>>>>>>> ac121dd2 (nearly there...)
 	C:/msys64/mingw64/include/_mingw.h \
 	C:/msys64/mingw64/include/_mingw_mac.h \
 	C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -399,15 +421,28 @@ flowers_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
 	C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QCheckBox \
+<<<<<<< HEAD
+=======
+	C:/msys64/mingw64/include/qt6/QtWidgets/QComboBox \
+	C:/msys64/mingw64/include/qt6/QtWidgets/QDateTimeEdit \
+>>>>>>> ac121dd2 (nearly there...)
 	C:/msys64/mingw64/include/qt6/QtWidgets/QFileDialog \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QGridLayout \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QLabel \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QLineEdit \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QListWidgetItem \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
+<<<<<<< HEAD
 	C:/msys64/mingw64/include/qt6/QtWidgets/QMessageBox \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QPushButton \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QRadioButton \
+=======
+	C:/msys64/mingw64/include/qt6/QtWidgets/QMenu \
+	C:/msys64/mingw64/include/qt6/QtWidgets/QMessageBox \
+	C:/msys64/mingw64/include/qt6/QtWidgets/QPushButton \
+	C:/msys64/mingw64/include/qt6/QtWidgets/QRadioButton \
+	C:/msys64/mingw64/include/qt6/QtWidgets/QTableWidget \
+>>>>>>> ac121dd2 (nearly there...)
 	C:/msys64/mingw64/include/qt6/QtWidgets/QWidget \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qabstractbutton.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qabstractitemdelegate.h \
@@ -417,6 +452,11 @@ flowers_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qabstractspinbox.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qboxlayout.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qcheckbox.h \
+<<<<<<< HEAD
+=======
+	C:/msys64/mingw64/include/qt6/QtWidgets/qcombobox.h \
+	C:/msys64/mingw64/include/qt6/QtWidgets/qdatetimeedit.h \
+>>>>>>> ac121dd2 (nearly there...)
 	C:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qfiledialog.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
@@ -428,6 +468,10 @@ flowers_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qlistview.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qlistwidget.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
+<<<<<<< HEAD
+=======
+	C:/msys64/mingw64/include/qt6/QtWidgets/qmenu.h \
+>>>>>>> ac121dd2 (nearly there...)
 	C:/msys64/mingw64/include/qt6/QtWidgets/qmessagebox.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qpushbutton.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qradiobutton.h \
@@ -626,7 +670,13 @@ flowers_autogen/timestamp: \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake \
+<<<<<<< HEAD
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/compflow.ui \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/flowercard.ui \
 	C:/Users/doron/OneDrive/Рабочий\ стол/flow1/mainwindow.ui \
+=======
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/compflow.ui \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowercard.ui \
+	C:/Users/doron/OneDrive/Рабочий\ стол/flowers/mainwindow.ui \
+>>>>>>> ac121dd2 (nearly there...)
 	C:/msys64/mingw64/bin/cmake.exe

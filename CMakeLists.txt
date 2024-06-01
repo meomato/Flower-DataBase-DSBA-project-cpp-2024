@@ -27,6 +27,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         flowerlabel.h flowerlabel.cpp
         flowercard.h flowercard.cpp flowercard.ui
         compflow.h compflow.cpp compflow.ui
+<<<<<<< HEAD
+=======
+
+        gardnerwindow.h gardnerwindow.cpp
+>>>>>>> ac121dd2 (nearly there...)
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET flowers APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

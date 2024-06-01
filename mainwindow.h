@@ -8,8 +8,15 @@
 #include <QListWidgetItem>
 #include <QSettings>
 #include <QRadioButton>
+<<<<<<< HEAD
 #include "flowercard.h"
 #include "compflow.h"
+=======
+#include <QMenu>
+#include "flowercard.h"
+#include "compflow.h"
+#include "gardnerwindow.h"
+>>>>>>> ac121dd2 (nearly there...)
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -27,7 +34,10 @@ public:
 
 private slots:
     void showCard();
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac121dd2 (nearly there...)
     void on_lineEdit_textChanged(const QString &arg1);
 
     void on_pb_flowerGroup_clicked(bool checked);
@@ -54,6 +64,11 @@ private slots:
 
     void addToCompare(bool isChecked);
 
+<<<<<<< HEAD
+=======
+    void on_toolButton_3_clicked();
+
+>>>>>>> ac121dd2 (nearly there...)
 private:
     Ui::MainWindow *ui;
     QMap<int, QVector<QString>> flowersDb{};
@@ -61,6 +76,10 @@ private:
     QTableWidget *tw{};
     FlowerCard *fcard{};
     CompFlow *compFlow{};
+<<<<<<< HEAD
+=======
+    GardnerWindow *gardnerWindow{};
+>>>>>>> ac121dd2 (nearly there...)
     QVector<FlowerContainer*> fcVector{};
 
     void openCsv();
@@ -73,7 +92,11 @@ private:
     QVector<QString> flowGroupVector{};
     QVector<QString> qualitiesVector{};
     QVector<QString> containerVector{};
+<<<<<<< HEAD
     QVector<QString> popularityVector{};
+=======
+    //QVector<QString> popularityVector{};
+>>>>>>> ac121dd2 (nearly there...)
     QMultiMap<int, int> popularityMMap{};
 
     QMenu *menu{};

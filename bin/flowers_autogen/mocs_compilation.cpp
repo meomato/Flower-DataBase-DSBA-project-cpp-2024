@@ -3,4 +3,8 @@
 #include "EWIEGA46WW/moc_flowercard.cpp"
 #include "EWIEGA46WW/moc_flowercontainer.cpp"
 #include "EWIEGA46WW/moc_flowerlabel.cpp"
+<<<<<<< HEAD
+=======
+#include "EWIEGA46WW/moc_gardnerwindow.cpp"
+>>>>>>> ac121dd2 (nearly there...)
 #include "EWIEGA46WW/moc_mainwindow.cpp"

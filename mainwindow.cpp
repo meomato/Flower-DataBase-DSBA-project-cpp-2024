@@ -18,12 +18,28 @@ MainWindow::MainWindow(QWidget *parent)
 
     tw = ui->tableWidget;
     loadFlowers();
+<<<<<<< HEAD
 
+=======
+    gardnerWindow = new GardnerWindow(flowersDb[1]);
+>>>>>>> ac121dd2 (nearly there...)
     fcard = new FlowerCard();
 
     ui->tw_filterList->setColumnWidth(0, 250);
 
     setWindowTitle("Bloom Baze | Home Page");
+<<<<<<< HEAD
+=======
+
+    menu = new QMenu("Menu");
+    actionLogin = new QAction("Login", this);
+    menu->addAction(actionLogin);
+    actionLogout = new QAction("Logout", this);
+    menu->addAction(actionLogout);
+    ui->toolButton_3->setMenu(menu);
+    ui->toolButton_3->setPopupMode(QToolButton::InstantPopup);
+    connect(actionLogin, &QAction::triggered, this, &MainWindow::on_toolButton_3_clicked);
+>>>>>>> ac121dd2 (nearly there...)
 }
 
 MainWindow::~MainWindow()
@@ -449,8 +465,11 @@ void MainWindow::on_toolButton_2_clicked()
     compFlow->clearWidgets();
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ac121dd2 (nearly there...)
 void MainWindow::addToCompare(bool isChecked)
 {
     FlowerContainer *currFc = qobject_cast<FlowerContainer*>(sender());
@@ -463,3 +482,13 @@ void MainWindow::addToCompare(bool isChecked)
         fcCompareVector.remove(fcCompareVector.indexOf(currFc));
     }
 }
+<<<<<<< HEAD
+=======
+
+
+void MainWindow::on_toolButton_3_clicked()
+{
+    gardnerWindow->show();
+}
+
+>>>>>>> ac121dd2 (nearly there...)

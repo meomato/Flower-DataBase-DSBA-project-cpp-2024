@@ -8,7 +8,11 @@ CompFlow::CompFlow(QWidget *parent)
     , ui(new Ui::CompFlow)
 {
     ui->setupUi(this);
+<<<<<<< HEAD
     setWindowTitle("Flower Comparison");
+=======
+    setWindowTitle("Bloom Baze | Flower Comparison");
+>>>>>>> ac121dd2 (nearly there...)
 
 }
 
