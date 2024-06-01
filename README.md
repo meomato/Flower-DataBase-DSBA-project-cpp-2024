@@ -241,3 +241,72 @@
     - Главная функция программы.
     - **На вход:** количество аргументов командной строки и массив строк аргументов.
     - **На выход:** код завершения программы.
+
+---
+
+# Technical Specification
+
+## 1. Input Data
+
+The flower database includes the following fields:
+
+* **Flower group**: Group of flowers
+* **Flower name**: Name of the flower
+* **URL**: Link to detailed description
+* **Containers**: Containers
+* **Flower Time**: Flowering time
+* **Flowers (Qualities)**: Flower qualities
+* **Leaves**: Leaves
+* **Life cycle**: Life cycle
+* **Miscellaneous**: Miscellaneous
+* **Plant Habit**: Growth habit
+
+## 2. Core Application Features
+
+### 2.1. Flower List View
+* **Description:** Ability to view all records from the database with basic information.
+* **Functionality:** Dynamic filtering by popularity, container type, flower group, and characteristics.
+
+### 2.2. Detailed Flower Information View
+* **Description:** Display full information about a selected flower.
+* **Functionality:** Navigate to the URL for detailed flower description. **(Not implemented)**
+
+### 2.3. Flower Comparison
+* **Description:** Ability to select and compare multiple flowers based on various criteria (e.g., container compatibility, life cycle).
+* **Functionality:** 
+
+### 2.4. Advanced Search and Filtering
+* **Description:** Search by flower names.
+* **Functionality:** 
+
+### 2.5. Personal Gardener
+* **Description:** 
+  - **Profile Management:** Manage your profile.
+  - **Flower Addition:** Add flowers.
+  - **Note Taking:** Write notes about flowers.
+  - **Login/Logout:** 
+
+## 3. Application Appearance
+
+### 3.1. Application Name
+* **Name:** BloomBaze
+
+### 3.2. Application Icon
+* **Icon:** 
+
+### 3.3. Window Title and Icon
+* **Title and Icon:** Each window in the application should display the application name and icon.
+
+## 4. Documentation
+
+### 4.1. User Guide
+* **Description:** Detailed user manual with descriptions of all features and visual elements of the application.
+
+### 4.2. Technical Documentation
+* **Description:** Technical documentation describing the architecture of the application and the database structure.
+
+### 4.1. User Guide
+- **Description:** Detailed user manual with descriptions of all features and visual elements of the application.
+
+### 4.2. Technical Documentation
+- **Description:** Technical documentation describing the architecture of the application and the database structure.
