@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Additional clean files
 cmake_minimum_required(VERSION 3.16)
 
@@ -9,15 +8,3 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "flowers_autogen"
   )
 endif()
-=======
-# Additional clean files
-cmake_minimum_required(VERSION 3.16)
-
-if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
-  file(REMOVE_RECURSE
-  "CMakeFiles\\flowers_autogen.dir\\AutogenUsed.txt"
-  "CMakeFiles\\flowers_autogen.dir\\ParseCache.txt"
-  "flowers_autogen"
-  )
-endif()
->>>>>>> ac121dd2 (nearly there...)

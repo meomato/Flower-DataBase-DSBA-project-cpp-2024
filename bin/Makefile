@@ -57,17 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/repetitor/_QtProjects/flow1
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/repetitor/_QtProjects/flow1/bin
-=======
 CMAKE_SOURCE_DIR = /home/repetitor/_QtProjects/flowers
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/repetitor/_QtProjects/flowers/bin
->>>>>>> ac121dd2 (nearly there...)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -139,15 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/repetitor/_QtProjects/flow1/bin/CMakeFiles /home/repetitor/_QtProjects/flow1/bin//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/repetitor/_QtProjects/flow1/bin/CMakeFiles 0
-=======
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/repetitor/_QtProjects/flowers/bin/CMakeFiles /home/repetitor/_QtProjects/flowers/bin//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/repetitor/_QtProjects/flowers/bin/CMakeFiles 0
->>>>>>> ac121dd2 (nearly there...)
 .PHONY : all
 
 # The main clean target
@@ -320,33 +307,6 @@ flowers_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flowers.dir/build.make CMakeFiles/flowers.dir/flowers_autogen/mocs_compilation.cpp.s
 .PHONY : flowers_autogen/mocs_compilation.cpp.s
 
-<<<<<<< HEAD
-gardenerform.o: gardenerform.cpp.o
-.PHONY : gardenerform.o
-
-# target to build an object file
-gardenerform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/flowers.dir/build.make CMakeFiles/flowers.dir/gardenerform.cpp.o
-.PHONY : gardenerform.cpp.o
-
-gardenerform.i: gardenerform.cpp.i
-.PHONY : gardenerform.i
-
-# target to preprocess a source file
-gardenerform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/flowers.dir/build.make CMakeFiles/flowers.dir/gardenerform.cpp.i
-.PHONY : gardenerform.cpp.i
-
-gardenerform.s: gardenerform.cpp.s
-.PHONY : gardenerform.s
-
-# target to generate assembly for a file
-gardenerform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/flowers.dir/build.make CMakeFiles/flowers.dir/gardenerform.cpp.s
-.PHONY : gardenerform.cpp.s
-
-=======
->>>>>>> ac121dd2 (nearly there...)
 gardnerwindow.o: gardnerwindow.cpp.o
 .PHONY : gardnerwindow.o
 
@@ -448,12 +408,6 @@ help:
 	@echo "... flowers_autogen/mocs_compilation.o"
 	@echo "... flowers_autogen/mocs_compilation.i"
 	@echo "... flowers_autogen/mocs_compilation.s"
-<<<<<<< HEAD
-	@echo "... gardenerform.o"
-	@echo "... gardenerform.i"
-	@echo "... gardenerform.s"
-=======
->>>>>>> ac121dd2 (nearly there...)
 	@echo "... gardnerwindow.o"
 	@echo "... gardnerwindow.i"
 	@echo "... gardnerwindow.s"

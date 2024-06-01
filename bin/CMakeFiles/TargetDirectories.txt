@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/flowers.dir
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/edit_cache.dir
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/rebuild_cache.dir
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/list_install_components.dir
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/install.dir
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/install/local.dir
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/install/strip.dir
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/flowers_autogen_timestamp_deps.dir
-C:/Users/doron/OneDrive/Рабочий стол/flow1/bin/CMakeFiles/flowers_autogen.dir
-=======
 C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/flowers.dir
 C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/edit_cache.dir
 C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/rebuild_cache.dir
@@ -18,4 +7,3 @@ C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/install/l
 C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/install/strip.dir
 C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/flowers_autogen_timestamp_deps.dir
 C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/flowers_autogen.dir
->>>>>>> ac121dd2 (nearly there...)

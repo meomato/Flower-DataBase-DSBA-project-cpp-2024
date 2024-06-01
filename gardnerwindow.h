@@ -30,7 +30,36 @@ private:
     QPushButton *pb_exit{};
 
     QGridLayout *mainLayout{};
+    QVector<FlowerContainer*> flowContVector{};
 
+    QMap<QString, QMap<int, QString>> gardenerFlowDb{};
+
+    QTableWidget *twFlowers{};
+    QTableWidget *twNotes{};
+
+    QPushButton *addFlowBtn{};
+    QPushButton *addNoteBtn{};
+
+    QStringList flowNameList{};
+
+private:
+    bool openGardnerFile();
+    void hideAuthInterface();
+    void processAuth();
+    void prepareFlowTable(QSettings &gardnerSettings);
+    void prepareNotesTable(QSettings &gardnerSettings);
+
+private slots:
+    void showGardenerMain();
+
+signals:
+
+private slots:
+    void addFlower();
+    void addNote();
+    void saveCurrFlower();
+    void saveCurrNote();
+    void saveGurdnerData();
 };
 
 #endif // GARDNERWINDOW_H
