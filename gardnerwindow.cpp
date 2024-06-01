@@ -1,11 +1,13 @@
 #include "gardnerwindow.h"
+#include <QMessageBox>
 
 GardnerWindow::GardnerWindow(QStringList flowNameList, QWidget *parent)
     : QWidget{parent},
     flowNameList(flowNameList)
 {
     auth = new QSettings("auth", QSettings::IniFormat);
-    setWindowTitle("Bloom Baze | Registration/Autorization");
+    setWindowTitle("Bloom Baze | Registration/Authorization");
+    setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico"));
 
     setFixedSize(200,150);
 
@@ -20,13 +22,16 @@ GardnerWindow::GardnerWindow(QStringList flowNameList, QWidget *parent)
     pb_access->setEnabled(false);
     connect(pb_access, &QPushButton::clicked, this, &GardnerWindow::showGardenerMain);
     connect(le_login, &QLineEdit::textChanged, this, [&](QString text){
-        if(!text.size())
-            pb_access->setEnabled(false);
-        else
-            pb_access->setEnabled(true);
+        pb_access->setEnabled(!text.isEmpty());
     });
 
     pb_exit = new QPushButton("Close");
+    connect(pb_exit, &QPushButton::clicked, this, &GardnerWindow::close);
+
+    pb_logout = new QPushButton("Log out");
+    pb_logout->setFixedSize(80, 30);
+    pb_logout->hide();
+    connect(pb_logout, &QPushButton::clicked, this, &GardnerWindow::logout);
 
     mainLayout->addWidget(lb_login,0,0,1,2);
     mainLayout->addWidget(le_login,1,0,1,2);
@@ -34,13 +39,47 @@ GardnerWindow::GardnerWindow(QStringList flowNameList, QWidget *parent)
     mainLayout->addWidget(le_password,3,0,1,2);
     mainLayout->addWidget(pb_access,4,0);
     mainLayout->addWidget(pb_exit,4,1);
+    mainLayout->addWidget(pb_logout,5,0,1,2);
+}
+
+void GardnerWindow::logout()
+{
+    setWindowTitle("Bloom Baze | Registration/Authorization");
+    setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico"));
+    lb_login->show();
+    le_login->show();
+    lb_password->show();
+    le_password->show();
+    pb_access->show();
+    pb_exit->show();
+    pb_logout->hide();
+
+    setFixedSize(200,150);
+
+    twFlowers->hide();
+    twNotes->hide();
+    addFlowBtn->hide();
+    addNoteBtn->hide();
+}
+
+void GardnerWindow::showGardenerMain()
+{
+    QSettings gardnerSettings(le_login->text(), QSettings::IniFormat);
+    processAuth();
+    hideAuthInterface();
+    prepareFlowTable(gardnerSettings);
+    prepareNotesTable(gardnerSettings);
+
+    pb_logout->show();
 }
 
 bool GardnerWindow::openGardnerFile()
 {
     QFile file(le_login->text());
-    if(!file.open(QIODevice::WriteOnly ))
-        qDebug() << "File oppening error";
+    if (!file.open(QIODevice::WriteOnly))
+    {
+        qDebug() << "File opening error";
+    }
     return true;
 }
 
@@ -53,7 +92,6 @@ void GardnerWindow::hideAuthInterface()
     le_password->hide();
     pb_access->hide();
     pb_exit->hide();
-
 
     setFixedSize(600,500);
 }
@@ -164,16 +202,6 @@ void GardnerWindow::prepareNotesTable(QSettings &gardnerSettings)
     mainLayout->addWidget(addNoteBtn, 1,1);
     connect(addNoteBtn, &QPushButton::clicked, this, &GardnerWindow::addNote);
     gardnerSettings.endArray();
-}
-
-
-void GardnerWindow::showGardenerMain()
-{
-    QSettings gardnerSettings(le_login->text(), QSettings::IniFormat);
-    processAuth();
-    hideAuthInterface();
-    prepareFlowTable(gardnerSettings);
-    prepareNotesTable(gardnerSettings);
 }
 
 void GardnerWindow::addFlower()

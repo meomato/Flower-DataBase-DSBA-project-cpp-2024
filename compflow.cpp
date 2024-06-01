@@ -9,6 +9,7 @@ CompFlow::CompFlow(QWidget *parent)
 {
     ui->setupUi(this);
     setWindowTitle("Bloom Baze | Flower Comparison");
+    setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico"));
 
 }
 

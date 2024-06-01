@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/im">
+        <file>img/purple_flower_icon_transparent-no-bg-preview.png</file>
+    </qresource>
+</RCC>

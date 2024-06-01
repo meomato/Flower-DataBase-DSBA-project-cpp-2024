@@ -37,6 +37,7 @@ public:
     QToolButton *toolButton;
     QToolButton *toolButton_2;
     QToolButton *toolButton_3;
+    QLabel *label_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
     QDockWidget *dockWidget;
@@ -64,7 +65,7 @@ public:
         QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
         tableWidget->setHorizontalHeaderItem(1, __qtablewidgetitem1);
         tableWidget->setObjectName("tableWidget");
-        tableWidget->setGeometry(QRect(60, 150, 520, 401));
+        tableWidget->setGeometry(QRect(9, 150, 571, 391));
         tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
         tableWidget->setSelectionBehavior(QAbstractItemView::SelectItems);
         tableWidget->horizontalHeader()->setVisible(false);
@@ -73,14 +74,14 @@ public:
         tableWidget->verticalHeader()->setDefaultSectionSize(250);
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(100, 10, 331, 51));
+        label->setGeometry(QRect(120, 10, 331, 51));
         QFont font;
         font.setPointSize(35);
         label->setFont(font);
         label->setAlignment(Qt::AlignCenter);
         lineEdit = new QLineEdit(centralwidget);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(140, 90, 261, 41));
+        lineEdit->setGeometry(QRect(160, 80, 261, 41));
         toolButton = new QToolButton(centralwidget);
         toolButton->setObjectName("toolButton");
         toolButton->setGeometry(QRect(510, 10, 21, 21));
@@ -90,10 +91,13 @@ public:
         toolButton_3 = new QToolButton(centralwidget);
         toolButton_3->setObjectName("toolButton_3");
         toolButton_3->setGeometry(QRect(570, 10, 20, 21));
+        label_2 = new QLabel(centralwidget);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(480, 50, 111, 91));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 874, 16));
+        menubar->setGeometry(QRect(0, 0, 874, 25));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -159,6 +163,7 @@ public:
         toolButton->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         toolButton_2->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         toolButton_3->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
+        label_2->setText(QString());
         pb_flowerGroup->setText(QCoreApplication::translate("MainWindow", "Flower group", nullptr));
         pb_qualities->setText(QCoreApplication::translate("MainWindow", "Qualities", nullptr));
         pb_container->setText(QCoreApplication::translate("MainWindow", "Container", nullptr));

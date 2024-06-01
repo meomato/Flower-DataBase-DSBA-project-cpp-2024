@@ -19,6 +19,7 @@ class GardnerWindow : public QWidget
     Q_OBJECT
 public:
     explicit GardnerWindow(QStringList flowNameList, QWidget *parent = nullptr);
+
 private:
     QSettings *auth{};
 
@@ -28,6 +29,7 @@ private:
     QLineEdit *le_password{};
     QPushButton *pb_access{};
     QPushButton *pb_exit{};
+    QPushButton *pb_logout{};
 
     QGridLayout *mainLayout{};
     QVector<FlowerContainer*> flowContVector{};
@@ -42,7 +44,6 @@ private:
 
     QStringList flowNameList{};
 
-private:
     bool openGardnerFile();
     void hideAuthInterface();
     void processAuth();
@@ -51,8 +52,7 @@ private:
 
 private slots:
     void showGardenerMain();
-
-signals:
+    void logout();
 
 private slots:
     void addFlower();

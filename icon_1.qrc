@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/user_1077063.png</file>
+        <file>img/purple_flower_icon_transparent.ico</file>
+        <file>img/icons8_remake.png</file>
+        <file>img/icons8_compare.png</file>
+    </qresource>
+</RCC>

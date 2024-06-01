@@ -29,6 +29,7 @@ public:
 
 private slots:
     void showCard();
+
     void on_lineEdit_textChanged(const QString &arg1);
 
     void on_pb_flowerGroup_clicked(bool checked);
@@ -84,5 +85,6 @@ private:
     QAction *actionLogout{};
 
     QSettings *settings{};
+
 };
 #endif // MAINWINDOW_H

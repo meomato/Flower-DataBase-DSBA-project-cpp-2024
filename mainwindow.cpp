@@ -24,14 +24,19 @@ MainWindow::MainWindow(QWidget *parent)
     ui->tw_filterList->setColumnWidth(0, 250);
 
     setWindowTitle("Bloom Baze | Home Page");
+    setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico"));
 
     menu = new QMenu("Menu");
     actionLogin = new QAction("Login", this);
     menu->addAction(actionLogin);
-    actionLogout = new QAction("Logout", this);
-    menu->addAction(actionLogout);
+
     ui->toolButton_3->setMenu(menu);
     ui->toolButton_3->setPopupMode(QToolButton::InstantPopup);
+
+    ui->toolButton->setIcon(QIcon(":/img/icons8_compare.png"));
+    ui->toolButton_3->setIcon(QIcon(":/img/user_1077063.png"));
+    ui->toolButton_2->setIcon(QIcon(":/img/icons8_remake.png"));
+
     connect(actionLogin, &QAction::triggered, this, &MainWindow::on_toolButton_3_clicked);
 }
 

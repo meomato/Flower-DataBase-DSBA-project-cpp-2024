@@ -21,6 +21,7 @@ FlowerCard::FlowerCard(QWidget *parent)
     ui->gridLayout->addWidget(sliderFl,0,0);
 
     setWindowTitle("Bloom Baze | Description of the flower");
+    setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico"));
 }
 
 FlowerCard::~FlowerCard()

@@ -17,10 +17,10 @@
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>9</x>
       <y>150</y>
-      <width>520</width>
-      <height>401</height>
+      <width>571</width>
+      <height>391</height>
      </rect>
     </property>
     <property name="selectionMode">
@@ -55,7 +55,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>120</x>
       <y>10</y>
       <width>331</width>
       <height>51</height>
@@ -76,8 +76,8 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>90</y>
+      <x>160</x>
+      <y>80</y>
       <width>261</width>
       <height>41</height>
      </rect>
@@ -122,6 +122,19 @@
      <string>...</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>50</y>
+      <width>111</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -129,7 +142,7 @@
      <x>0</x>
      <y>0</y>
      <width>874</width>
-     <height>16</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
