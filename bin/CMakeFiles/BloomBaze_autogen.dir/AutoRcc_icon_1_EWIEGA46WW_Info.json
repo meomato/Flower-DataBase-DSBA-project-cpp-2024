@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/BloomBaze_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers",
+	"CMAKE_SOURCE_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers",
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/BloomBaze_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/img/purple_flower_icon_transparent.ico",
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/img/icons8_remake.png",
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/img/user_1077063.png",
+		"C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/img/icons8_compare.png"
+	],
+	"LOCK_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/CMakeFiles/BloomBaze_autogen.dir/AutoRcc_icon_1_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "icon_1" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icon_1.cpp",
+	"RCC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/bin/CMakeFiles/BloomBaze_autogen.dir/AutoRcc_icon_1_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/doron/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/flowers/icon_1.qrc",
+	"VERBOSITY" : 0
+}

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: flowers
+# Project: BloomBaze
 # Configurations: Debug
 # =============================================================================
 
@@ -41,123 +41,132 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/
 # =============================================================================
-# Object build statements for EXECUTABLE target flowers
+# Object build statements for EXECUTABLE target BloomBaze
 
 
 #############################################
-# Order-only phony target for flowers
+# Order-only phony target for BloomBaze
 
-build cmake_object_order_depends_target_flowers: phony || flowers_autogen flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp flowers_autogen/mocs_compilation.cpp flowers_autogen/timestamp flowers_autogen_timestamp_deps
+build cmake_object_order_depends_target_BloomBaze: phony || BloomBaze_autogen BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp BloomBaze_autogen/mocs_compilation.cpp BloomBaze_autogen/timestamp BloomBaze_autogen_timestamp_deps
 
-build CMakeFiles/flowers.dir/flowers_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/flowers_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\flowers_autogen\mocs_compilation.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\BloomBaze_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir\flowers_autogen
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir\BloomBaze_autogen
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
-build CMakeFiles/flowers.dir/main.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/main.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/main.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/main.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
-build CMakeFiles/flowers.dir/mainwindow.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/mainwindow.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/mainwindow.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\mainwindow.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\mainwindow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
-build CMakeFiles/flowers.dir/flowercontainer.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowercontainer.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowercontainer.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\flowercontainer.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\flowercontainer.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
-build CMakeFiles/flowers.dir/flowerlabel.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowerlabel.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowerlabel.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\flowerlabel.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\flowerlabel.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
-build CMakeFiles/flowers.dir/flowercard.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowercard.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/flowercard.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowercard.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\flowercard.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\flowercard.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
-build CMakeFiles/flowers.dir/compflow.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/compflow.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/compflow.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/compflow.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\compflow.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\compflow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
-build CMakeFiles/flowers.dir/gardnerwindow.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/gardnerwindow.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/gardnerwindow.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\gardnerwindow.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\gardnerwindow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
-build CMakeFiles/flowers.dir/flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj: CXX_COMPILER__flowers_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp || cmake_object_order_depends_target_flowers
+build CMakeFiles/BloomBaze.dir/app_icon.rc.obj: RC_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/app_icon.rc || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\flowers.dir\flowers_autogen\EWIEGA46WW\qrc_icon_1.cpp.obj.d
+  DEP_FILE = CMakeFiles\BloomBaze.dir\app_icon.rc.obj.d
+  INCLUDES = -I "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I C:/msys64/mingw64/include/qt6/QtCore -I C:/msys64/mingw64/include/qt6 -I C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -I C:/msys64/mingw64/include/qt6/QtWidgets -I C:/msys64/mingw64/include/qt6/QtGui -I C:/msys64/mingw64/include
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
+
+build CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp || cmake_object_order_depends_target_BloomBaze
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\BloomBaze.dir\BloomBaze_autogen\EWIEGA46WW\qrc_icon_1.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
-  OBJECT_DIR = CMakeFiles\flowers.dir
-  OBJECT_FILE_DIR = CMakeFiles\flowers.dir\flowers_autogen\EWIEGA46WW
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_PDB = flowers.pdb
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir\BloomBaze_autogen\EWIEGA46WW
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target flowers
+# Link build statements for EXECUTABLE target BloomBaze
 
 
 #############################################
-# Link the executable flowers.exe
+# Link the executable BloomBaze.exe
 
-build flowers.exe: CXX_EXECUTABLE_LINKER__flowers_Debug CMakeFiles/flowers.dir/flowers_autogen/mocs_compilation.cpp.obj CMakeFiles/flowers.dir/main.cpp.obj CMakeFiles/flowers.dir/mainwindow.cpp.obj CMakeFiles/flowers.dir/flowercontainer.cpp.obj CMakeFiles/flowers.dir/flowerlabel.cpp.obj CMakeFiles/flowers.dir/flowercard.cpp.obj CMakeFiles/flowers.dir/compflow.cpp.obj CMakeFiles/flowers.dir/gardnerwindow.cpp.obj CMakeFiles/flowers.dir/flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || flowers_autogen flowers_autogen_timestamp_deps
+build BloomBaze.exe: CXX_EXECUTABLE_LINKER__BloomBaze_Debug CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj CMakeFiles/BloomBaze.dir/main.cpp.obj CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj CMakeFiles/BloomBaze.dir/flowercard.cpp.obj CMakeFiles/BloomBaze.dir/compflow.cpp.obj CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj CMakeFiles/BloomBaze.dir/app_icon.rc.obj CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || BloomBaze_autogen BloomBaze_autogen_timestamp_deps
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/msys64/mingw64/lib/libQt6Widgets.dll.a  C:/msys64/mingw64/lib/libQt6Gui.dll.a  C:/msys64/mingw64/lib/libQt6Core.dll.a  -lmpr  -luserenv  -lmingw32  C:/msys64/mingw64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\flowers.dir
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\flowers.dir\
-  TARGET_FILE = flowers.exe
-  TARGET_IMPLIB = libflowers.dll.a
-  TARGET_PDB = flowers.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_FILE = BloomBaze.exe
+  TARGET_IMPLIB = libBloomBaze.dll.a
+  TARGET_PDB = BloomBaze.pdb
 
 
 #############################################
@@ -226,51 +235,51 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 
 #############################################
-# Utility command for flowers_autogen_timestamp_deps
+# Utility command for BloomBaze_autogen_timestamp_deps
 
-build flowers_autogen_timestamp_deps: phony CMakeFiles/flowers_autogen_timestamp_deps
-
-
-#############################################
-# Utility command for flowers_autogen
-
-build flowers_autogen: phony CMakeFiles/flowers_autogen flowers_autogen/include/ui_mainwindow.h flowers_autogen/include/ui_flowercard.h flowers_autogen/include/ui_compflow.h flowers_autogen/timestamp flowers_autogen/mocs_compilation.cpp flowers_autogen_timestamp_deps
+build BloomBaze_autogen_timestamp_deps: phony CMakeFiles/BloomBaze_autogen_timestamp_deps
 
 
 #############################################
-# Custom command for flowers_autogen\timestamp
+# Utility command for BloomBaze_autogen
 
-build flowers_autogen/timestamp flowers_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}flowers_autogen/timestamp ${cmake_ninja_workdir}flowers_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe || flowers_autogen_timestamp_deps
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/flowers_autogen.dir/AutogenInfo.json" Debug && C:\msys64\mingw64\bin\cmake.exe -E touch "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/timestamp" && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/deps" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/2466cb7665d16f1a8f8b94e2ceeb7e19bcbe89884932c2028fed0ad38b936721.d""
-  DESC = Automatic MOC and UIC for target flowers
-  depfile = C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/2466cb7665d16f1a8f8b94e2ceeb7e19bcbe89884932c2028fed0ad38b936721.d
+build BloomBaze_autogen: phony CMakeFiles/BloomBaze_autogen BloomBaze_autogen/include/ui_mainwindow.h BloomBaze_autogen/include/ui_flowercard.h BloomBaze_autogen/include/ui_compflow.h BloomBaze_autogen/timestamp BloomBaze_autogen/mocs_compilation.cpp BloomBaze_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for BloomBaze_autogen\timestamp
+
+build BloomBaze_autogen/timestamp BloomBaze_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}BloomBaze_autogen/timestamp ${cmake_ninja_workdir}BloomBaze_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe || BloomBaze_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/BloomBaze_autogen.dir/AutogenInfo.json" Debug && C:\msys64\mingw64\bin\cmake.exe -E touch "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp" && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/deps" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/6920f74eb25bc1e2f7e62061e504c71c2d8cdeb1cbf951cc3acad6e8685ed99b.d""
+  DESC = Automatic MOC and UIC for target BloomBaze
+  depfile = C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/6920f74eb25bc1e2f7e62061e504c71c2d8cdeb1cbf951cc3acad6e8685ed99b.d
   restat = 1
 
 
 #############################################
-# Custom command for flowers_autogen\EWIEGA46WW\qrc_icon_1.cpp
+# Custom command for BloomBaze_autogen\EWIEGA46WW\qrc_icon_1.cpp
 
-build flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp | ${cmake_ninja_workdir}flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp: CUSTOM_COMMAND C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/icon_1.qrc CMakeFiles/flowers_autogen.dir/AutoRcc_icon_1_EWIEGA46WW_Info.json C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/img/purple_flower_icon_transparent.ico C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/img/icons8_remake.png C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/img/user_1077063.png C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/img/icons8_compare.png C$:/msys64/mingw64/share/qt6/bin/rcc.exe || flowers_autogen flowers_autogen_timestamp_deps
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autorcc "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/flowers_autogen.dir/AutoRcc_icon_1_EWIEGA46WW_Info.json" Debug"
+build BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp | ${cmake_ninja_workdir}BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp: CUSTOM_COMMAND C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/icon_1.qrc CMakeFiles/BloomBaze_autogen.dir/AutoRcc_icon_1_EWIEGA46WW_Info.json C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/img/purple_flower_icon_transparent.ico C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/img/icons8_remake.png C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/img/user_1077063.png C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/img/icons8_compare.png C$:/msys64/mingw64/share/qt6/bin/rcc.exe || BloomBaze_autogen BloomBaze_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autorcc "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/BloomBaze_autogen.dir/AutoRcc_icon_1_EWIEGA46WW_Info.json" Debug"
   DESC = Automatic RCC for icon_1.qrc
   restat = 1
 
 
 #############################################
-# Phony custom command for CMakeFiles\flowers_autogen_timestamp_deps
+# Phony custom command for CMakeFiles\BloomBaze_autogen_timestamp_deps
 
-build CMakeFiles/flowers_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/flowers_autogen_timestamp_deps: phony C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6Widgets.dll.a
+build CMakeFiles/BloomBaze_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/BloomBaze_autogen_timestamp_deps: phony C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe C$:/msys64/mingw64/lib/libQt6Core.dll.a
 
 
 #############################################
-# Phony custom command for CMakeFiles\flowers_autogen
+# Phony custom command for CMakeFiles\BloomBaze_autogen
 
-build CMakeFiles/flowers_autogen flowers_autogen/include/ui_mainwindow.h flowers_autogen/include/ui_flowercard.h flowers_autogen/include/ui_compflow.h | ${cmake_ninja_workdir}CMakeFiles/flowers_autogen ${cmake_ninja_workdir}flowers_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}flowers_autogen/include/ui_flowercard.h ${cmake_ninja_workdir}flowers_autogen/include/ui_compflow.h: phony flowers_autogen/timestamp || flowers_autogen_timestamp_deps
+build CMakeFiles/BloomBaze_autogen BloomBaze_autogen/include/ui_mainwindow.h BloomBaze_autogen/include/ui_flowercard.h BloomBaze_autogen/include/ui_compflow.h | ${cmake_ninja_workdir}CMakeFiles/BloomBaze_autogen ${cmake_ninja_workdir}BloomBaze_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}BloomBaze_autogen/include/ui_flowercard.h ${cmake_ninja_workdir}BloomBaze_autogen/include/ui_compflow.h: phony BloomBaze_autogen/timestamp || BloomBaze_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
 
-build flowers: phony flowers.exe
+build BloomBaze: phony BloomBaze.exe
 
 # =============================================================================
 # Folder targets.
@@ -280,7 +289,7 @@ build flowers: phony flowers.exe
 #############################################
 # Folder: C:/Users/doron/OneDrive/Рабочий стол/flowers/bin
 
-build all: phony flowers.exe
+build all: phony BloomBaze.exe
 
 # =============================================================================
 # Built-in targets

@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+BloomBaze_BINARY_DIR:STATIC=C:/Users/doron/OneDrive/Рабочий стол/flowers/bin
+
+//Value Computed by CMake
+BloomBaze_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+BloomBaze_SOURCE_DIR:STATIC=C:/Users/doron/OneDrive/Рабочий стол/flowers
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/msys64/mingw64/bin/addr2line.exe
 
@@ -132,7 +141,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/flowers
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/BloomBaze
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -194,7 +203,7 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/.qtc/package-manager/auto-setup.cmake
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=flowers
+CMAKE_PROJECT_NAME:STATIC=BloomBaze
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1
@@ -348,15 +357,6 @@ Vulkan_LIBRARY:FILEPATH=C:/msys64/mingw64/lib/libvulkan-1.dll.a
 
 //Path to a program.
 WINDEPLOYQT_EXECUTABLE:FILEPATH=C:/msys64/mingw64/bin/windeployqt-qt6.exe
-
-//Value Computed by CMake
-flowers_BINARY_DIR:STATIC=C:/Users/doron/OneDrive/Рабочий стол/flowers/bin
-
-//Value Computed by CMake
-flowers_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-flowers_SOURCE_DIR:STATIC=C:/Users/doron/OneDrive/Рабочий стол/flowers
 
 
 ########################
@@ -1272,5 +1272,5 @@ Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/flowers
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/BloomBaze
 
