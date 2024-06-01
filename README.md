@@ -310,3 +310,30 @@ The flower database includes the following fields:
 
 ### 4.2. Technical Documentation
 - **Description:** Technical documentation describing the architecture of the application and the database structure.
+
+---
+
+## Design
+
+You can view the design of our project on Figma:
+
+[View Figma Design](https://www.figma.com/design/C077Fcs12xT5OE5XNlJNsw/Untitled?node-id=0-1&t=jUKsiwbvDRH4FT57-0)
+
+### Design Previews
+
+#### Main Window
+![Main Window](https://i.imgur.com/gGPpRU4.png)
+
+#### Flower Description
+![Flower Description](https://imgur.com/LBj3pv2.png)
+
+#### Compare Window
+![Compare Window](https://imgur.com/Zkyc1F5.png)
+
+#### Authorization Window
+![Authorization Window](https://imgur.com/qFC1SGG.png)
+
+#### Gardener Profile
+![Gardener Profile](https://imgur.com/Cne19PR.png)
+
+---
