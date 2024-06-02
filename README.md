@@ -356,12 +356,12 @@ The flower database includes the following fields:
 
 You can view the design of our project on Figma:
 
-[View Figma Design](https://www.figma.com/design/C077Fcs12xT5OE5XNlJNsw/Untitled?node-id=0-1&t=jUKsiwbvDRH4FT57-0)
+[View design with description in Figma](https://www.figma.com/design/C077Fcs12xT5OE5XNlJNsw/Untitled?node-id=0-1&t=jUKsiwbvDRH4FT57-0)
 
 ### Design Previews
 
 #### Main Window
-![Main Window](https://i.imgur.com/gGPpRU4.png)
+![Main Window](https://imgur.com/5ZFREmq.png)
 
 #### Flower Description
 ![Flower Description](https://imgur.com/LBj3pv2.png)
@@ -371,6 +371,9 @@ You can view the design of our project on Figma:
 
 #### Authorization Window
 ![Authorization Window](https://imgur.com/qFC1SGG.png)
+
+#### Info Window
+![Info Window](https://imgur.com/qbMMmqO.png)
 
 #### Gardener Profile
 ![Gardener Profile](https://imgur.com/Cne19PR.png)
