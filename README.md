@@ -344,12 +344,6 @@ The flower database includes the following fields:
 ### 4.2. Technical Documentation
 * **Description:** Technical documentation describing the architecture of the application and the database structure.
 
-### 4.1. User Guide
-- **Description:** Detailed user manual with descriptions of all features and visual elements of the application.
-
-### 4.2. Technical Documentation
-- **Description:** Technical documentation describing the architecture of the application and the database structure.
-
 ---
 
 ## Design
