@@ -1,70 +1,49 @@
 # ninja log v5
-1397	6786	7389614102076016	CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj	e00e765889b95209
 29	1286	7389611598379747	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/mocs_compilation.cpp	fe7f69b7a5dbdf1e
+571	5053	7389647332684133	CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj	e00e765889b95209
 1287	1448	7389611600745690	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp	2d70489e9e3f227d
-1376	4482	7389614079047791	CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj	f884b4407fdeb62b
-1243	1355	7389614047719096	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
-8594	8878	7389611675006677	flowers.exe	f868560088bd4ca3
-1418	2057	7389614054783264	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj	9d753804f7a1398a
-251	2952	7389615114809078	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
-255	2959	7389615114876997	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
-1359	5774	7389614091975103	CMakeFiles/BloomBaze.dir/main.cpp.obj	9543e177dbee4b4a
+548	3255	7389647314705757	CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj	f884b4407fdeb62b
+529	742	7390483452995774	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
+521	4761	7390485554755546	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
+527	4168	7390485548821839	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	eb5dfb7e69425bf9
+514	4818	7390485555336758	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
+773	1487	7390483460544369	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj	9d753804f7a1398a
+1622	6321	7390475437947164	CMakeFiles/BloomBaze.dir/main.cpp.obj	9543e177dbee4b4a
+508	9322	7390485600311234	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
 62	71	0	clean	9c4b4372737ab8da
-1370	4792	7389614082150430	CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj	6a277099a01da64
-247	5126	7389615136525679	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
-5126	5386	7389615139037324	BloomBaze.exe	14947f9090bdc035
-32	234	7389615087622580	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
-1243	1355	7389614047719096	BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
-32	234	7389615087622580	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+541	3369	7389647315734059	CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj	6a277099a01da64
+9322	9846	7390485605416344	BloomBaze.exe	bcbe788f456cfbaf
+67	480	7390485511929318	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
 31	62	0	CMakeFiles/clean.additional	7155004b3956b606
-32	234	7389615087622580	BloomBaze_autogen/timestamp	a7735ad08d369d38
-32	234	7389615087622580	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+67	480	7390485511929318	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
+529	742	7390483452995774	BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
 29	1286	7389611598379747	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/timestamp	fe7f69b7a5dbdf1e
-26	598	7389615359859809	build.ninja	ef40ac5c29a4b213
-1355	6589	7389614100105701	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj	26da26d82f648f41
+67	480	7390485511929318	BloomBaze_autogen/timestamp	a7735ad08d369d38
+67	480	7390485511929318	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+26	598	7390487546020514	build.ninja	ef40ac5c29a4b213
+1615	7488	7390475449599516	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj	26da26d82f648f41
 29	1286	7389611598379747	flowers_autogen/timestamp	fe7f69b7a5dbdf1e
-1410	1630	7389614050445901	CMakeFiles/BloomBaze.dir/app_icon.rc.obj	10cce1bf452c7b8d
+1392	1630	7389615419341676	CMakeFiles/BloomBaze.dir/app_icon.rc.obj	10cce1bf452c7b8d
 29	1286	7389611598379747	flowers_autogen/mocs_compilation.cpp	fe7f69b7a5dbdf1e
 1287	1448	7389611600745690	flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp	2d70489e9e3f227d
-27	1257	7389615415019038	BloomBaze_autogen/timestamp	a7735ad08d369d38
-27	1257	7389615415019038	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-27	1257	7389615415019038	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
-27	1257	7389615415019038	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-1258	1350	7389615416564816	BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
-1258	1350	7389615416564816	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
-1392	1630	7389615419341676	CMakeFiles/BloomBaze.dir/app_icon.rc.obj	10cce1bf452c7b8d
-1404	2074	7389615423793965	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj	9d753804f7a1398a
-1366	4551	7389615448596761	CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj	f884b4407fdeb62b
-1362	4851	7389615451563620	CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj	6a277099a01da64
-1371	5535	7389615458438491	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
-1376	5546	7389615458538493	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
-1354	5767	7389615460762100	CMakeFiles/BloomBaze.dir/main.cpp.obj	9543e177dbee4b4a
-1350	6623	7389615469325443	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj	26da26d82f648f41
-1385	6667	7389615469755307	CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj	e00e765889b95209
-1358	8117	7389615484243001	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
-8117	8372	7389615486745577	BloomBaze.exe	14947f9090bdc035
-28	1725	7389639808707180	BloomBaze_autogen/timestamp	a7735ad08d369d38
-28	1725	7389639808707180	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-28	1725	7389639808707180	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
-28	1725	7389639808707180	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-1750	4993	7389639842785629	CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj	f884b4407fdeb62b
-1744	5255	7389639845401949	CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj	6a277099a01da64
-1762	5799	7389639850833298	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
-1756	5848	7389639851348618	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
-1732	6065	7389639853489308	CMakeFiles/BloomBaze.dir/main.cpp.obj	9543e177dbee4b4a
-1726	6966	7389639862531737	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj	26da26d82f648f41
-1776	7052	7389639863383135	CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj	e00e765889b95209
-1738	8307	7389639875909461	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
-8307	8621	7389639879007107	BloomBaze.exe	14947f9090bdc035
-63	494	7389647287071521	BloomBaze_autogen/timestamp	a7735ad08d369d38
-63	494	7389647287071521	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-63	494	7389647287071521	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
-63	494	7389647287071521	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-548	3255	7389647314705757	CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj	f884b4407fdeb62b
-541	3369	7389647315734059	CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj	6a277099a01da64
-530	4092	7389647322984013	CMakeFiles/BloomBaze.dir/main.cpp.obj	9543e177dbee4b4a
-554	4112	7389647323262225	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
-562	4244	7389647324571620	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
-571	5053	7389647332684133	CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj	e00e765889b95209
-536	6158	7389647343708720	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
-6159	6428	7389647346347709	BloomBaze.exe	14947f9090bdc035
+63	329	7390488007963495	BloomBaze_autogen/timestamp	a7735ad08d369d38
+63	329	7390488007963495	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+63	329	7390488007963495	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
+63	329	7390488007963495	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+344	459	7390488009196032	BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
+344	459	7390488009196032	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
+474	991	7390488014602194	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj	9d753804f7a1398a
+471	5540	7390488060069656	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	eb5dfb7e69425bf9
+467	5992	7390488064573077	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
+463	6070	7390488065371109	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
+459	8784	7390488092465047	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
+8784	9425	7390488098828118	BloomBaze.exe	bcbe788f456cfbaf
+54	326	7390488637812172	BloomBaze_autogen/timestamp	a7735ad08d369d38
+54	326	7390488637812172	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+54	326	7390488637812172	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
+54	326	7390488637812172	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+352	2253	7390488657058690	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	eb5dfb7e69425bf9
+348	2808	7390488662625988	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
+345	2887	7390488663411384	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
+341	5368	7390488688188228	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
+5368	5638	7390488690781021	BloomBaze.exe	bcbe788f456cfbaf

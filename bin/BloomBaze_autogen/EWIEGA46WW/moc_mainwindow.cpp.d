@@ -5,6 +5,7 @@ C:/Users/doron/OneDrive/Рабочий\ стол/flowers/bin/BloomBaze_autogen/E
   C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowercontainer.h \
   C:/Users/doron/OneDrive/Рабочий\ стол/flowers/flowerlabel.h \
   C:/Users/doron/OneDrive/Рабочий\ стол/flowers/gardnerwindow.h \
+  C:/Users/doron/OneDrive/Рабочий\ стол/flowers/informationwind.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -389,6 +390,7 @@ C:/Users/doron/OneDrive/Рабочий\ стол/flowers/bin/BloomBaze_autogen/E
   C:/msys64/mingw64/include/qt6/QtWidgets/QCheckBox \
   C:/msys64/mingw64/include/qt6/QtWidgets/QComboBox \
   C:/msys64/mingw64/include/qt6/QtWidgets/QDateTimeEdit \
+  C:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
   C:/msys64/mingw64/include/qt6/QtWidgets/QFileDialog \
   C:/msys64/mingw64/include/qt6/QtWidgets/QGridLayout \
   C:/msys64/mingw64/include/qt6/QtWidgets/QLabel \

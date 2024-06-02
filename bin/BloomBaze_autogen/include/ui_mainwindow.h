@@ -37,7 +37,7 @@ public:
     QToolButton *toolButton;
     QToolButton *toolButton_2;
     QToolButton *toolButton_3;
-    QLabel *label_2;
+    QToolButton *toolButton_4;
     QMenuBar *menubar;
     QStatusBar *statusbar;
     QDockWidget *dockWidget;
@@ -91,9 +91,9 @@ public:
         toolButton_3 = new QToolButton(centralwidget);
         toolButton_3->setObjectName("toolButton_3");
         toolButton_3->setGeometry(QRect(570, 10, 20, 21));
-        label_2 = new QLabel(centralwidget);
-        label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(480, 50, 111, 91));
+        toolButton_4 = new QToolButton(centralwidget);
+        toolButton_4->setObjectName("toolButton_4");
+        toolButton_4->setGeometry(QRect(560, 120, 21, 21));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -163,7 +163,7 @@ public:
         toolButton->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         toolButton_2->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         toolButton_3->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
-        label_2->setText(QString());
+        toolButton_4->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         pb_flowerGroup->setText(QCoreApplication::translate("MainWindow", "Flower group", nullptr));
         pb_qualities->setText(QCoreApplication::translate("MainWindow", "Qualities", nullptr));
         pb_container->setText(QCoreApplication::translate("MainWindow", "Container", nullptr));

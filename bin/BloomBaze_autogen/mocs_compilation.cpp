@@ -4,4 +4,5 @@
 #include "EWIEGA46WW/moc_flowercontainer.cpp"
 #include "EWIEGA46WW/moc_flowerlabel.cpp"
 #include "EWIEGA46WW/moc_gardnerwindow.cpp"
+#include "EWIEGA46WW/moc_informationwind.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"

@@ -26,25 +26,47 @@ MainWindow::MainWindow(QWidget *parent)
     gardnerWindow = new GardnerWindow(flowersDb[1]); // Создание экземпляра класса профиля садовника
     fcard = new FlowerCard(); // Создание экземпляра класса описания цветка
 
+    infoWind = new InformationWind(this); // Создание экземпляра класса справки
+
     ui->tw_filterList->setColumnWidth(0, 250); // Ширина колонки фильтра
 
     setWindowTitle("Bloom Baze | Home Page"); // Заголовок окна
     setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico")); // Иконка окна
 
     menu = new QMenu("Menu"); // Меню
-    actionLogin = new QAction("Login", this);
+    actionLogin = new QAction(QIcon(":/img/icons8_log.png"), "Login", this); // Вариант выбора Логин
+    actionInfo = new QAction(QIcon(":/img/icons8_info.png"),"Info", this); //  Вариант выбора Справка
+
     menu->addAction(actionLogin); // Параметры меню
+    menu->addAction(actionInfo); // Параметры меню
+
+    sort = new QMenu("Sorting"); // Новое меню для выбора сортировки
+    actionSortAlph = new QAction("A-Z", this); // По алфавиту
+    actionSortRev = new QAction("Z-A", this); // Против алфавита
+    sort->addAction(actionSortAlph); // Параметр меню сортировки
+    sort->addAction(actionSortRev); // Параметр меню сортировки
 
     ui->toolButton_3->setMenu(menu); // Кнопка для меню
     ui->toolButton_3->setPopupMode(QToolButton::InstantPopup); // Отображение меню при нажатии
+
+    ui->toolButton_4->setMenu(sort); // Кнопка для сортировочного меню
+    ui->toolButton_4->setPopupMode(QToolButton::InstantPopup); // Отображение меню при нажатии
 
     // Иконки для кнопок
     ui->toolButton->setIcon(QIcon(":/img/icons8_compare.png"));
     ui->toolButton_3->setIcon(QIcon(":/img/user_1077063.png"));
     ui->toolButton_2->setIcon(QIcon(":/img/icons8_remake.png"));
+    ui->toolButton_4->setIcon(QIcon(":/img/icons8_sort.png"));
 
     // Связь между кнопкой входа и профилем
     connect(actionLogin, &QAction::triggered, this, &MainWindow::on_toolButton_3_clicked);
+    // Связь между кнопкой сортировки по алфавиту и сортировкой цветов
+    connect(actionSortAlph, &QAction::triggered, this, &MainWindow::sortAlphabetically);
+    // Связь между кнопкой сортировки против алфавита и сортировкой цветов
+    connect(actionSortRev, &QAction::triggered, this, &MainWindow::sortReverseAlphabetically);
+    // Связь между кнопкой инфо и показом справки
+    connect(actionInfo, &QAction::triggered, this, &MainWindow::showInfo);
+
 }
 
 // Деструктор MainWindow отвечает за освобождение ресурсов, используемых объектом.
@@ -557,4 +579,48 @@ void MainWindow::addToCompare(bool isChecked)
 void MainWindow::on_toolButton_3_clicked()
 {
     gardnerWindow->show(); // отображение окна авторизации
+}
+
+// Слот sortAlphabetically отвечает за сортировку по алфавиту
+// На вход ничего не принимает.
+// На выход ничего не возвращает.
+void MainWindow::sortAlphabetically()
+{
+    resetFilters();
+    std::sort(flowersDb[1].begin(), flowersDb[1].end());
+    loadFlowers();
+}
+
+// Слот sortReverseAlphabetically отвечает за сортировку против алфавита
+// На вход ничего не принимает.
+// На выход ничего не возвращает.
+void MainWindow::sortReverseAlphabetically()
+{
+    resetFilters();
+    std::sort(flowersDb[1].rbegin(), flowersDb[1].rend());
+    loadFlowers();
+}
+
+// Слот resetFilters отвечает за очистку фильтров для сортировки цветов
+// На вход ничего не принимает.
+// На выход ничего не возвращает.
+void MainWindow::resetFilters()
+{
+    flowGroupVector.clear();
+    qualitiesVector.clear();
+    containerVector.clear();
+    popularityMMap.clear();
+
+    ui->tw_filterList->clearContents();
+    ui->tw_filterList->setRowCount(0);
+
+    loadFlowers();
+}
+
+// Слот showInfo отвечает за открытие окна "Справка"
+// На вход ничего не принимает.
+// На выход ничего не возвращает.
+void MainWindow::showInfo()
+{
+    infoWind->show();
 }

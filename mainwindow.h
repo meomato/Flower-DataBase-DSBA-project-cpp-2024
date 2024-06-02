@@ -12,6 +12,7 @@
 #include "flowercard.h"
 #include "compflow.h"
 #include "gardnerwindow.h"
+#include "informationwind.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -105,6 +106,25 @@ private slots:
     // На выход ничего не возвращает.
     void on_toolButton_3_clicked();
 
+    // Слот sortAlphabetically отвечает за сортировку по алфавиту
+    // На вход ничего не принимает.
+    // На выход ничего не возвращает.
+    void sortAlphabetically();
+
+    // Слот sortReverseAlphabetically отвечает за сортировку против алфавита
+    // На вход ничего не принимает.
+    // На выход ничего не возвращает.
+    void sortReverseAlphabetically();
+
+    // Слот resetFilters отвечает за очистку фильтров для сортировки цветов
+    // На вход ничего не принимает.
+    // На выход ничего не возвращает.
+    void resetFilters();
+
+    // Слот showInfo отвечает за показ информации о приложении.
+    // На вход ничего не принимает.
+    // На выход ничего не возвращает.
+    void showInfo();
 private:
     Ui::MainWindow *ui; // Указатель на UI компоновку.
     QMap<int, QVector<QString>> flowersDb{}; // База данных цветов из CSV-файла.
@@ -136,8 +156,15 @@ private:
 
     QMenu *menu{}; // Меню.
     QAction *actionLogin{}; // Действие "Войти".
+    QAction *actionInfo{}; // Действие "Справка".
+
+    QMenu *sort{}; // Меню для сортировки
+    QAction *actionSortAlph{}; // Действие "Сортировка по алфавиту"
+    QAction *actionSortRev{}; // Действие "Сортировка против алфавита"
 
     QSettings *settings{}; // Настройки приложения.
+
+    InformationWind *infoWind; // Окно справки.
 };
 
 #endif // MAINWINDOW_H

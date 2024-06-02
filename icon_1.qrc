@@ -4,5 +4,8 @@
         <file>img/purple_flower_icon_transparent.ico</file>
         <file>img/icons8_remake.png</file>
         <file>img/icons8_compare.png</file>
+        <file>img/icons8_sort.png</file>
+        <file>img/icons8_info.png</file>
+        <file>img/icons8_log.png</file>
     </qresource>
 </RCC>
