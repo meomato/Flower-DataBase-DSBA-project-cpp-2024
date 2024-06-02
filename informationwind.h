@@ -19,6 +19,10 @@ private:
     Ui::InformationWind *ui;
 
 private slots:
+
+    // Слот clicked_on_toolButton_5 отвечает за закрытие окна информации.
+    // На вход ничего не принимает.
+    // На выход ничего не возвращает.
     void clicked_on_toolButton_5();
 };
 
