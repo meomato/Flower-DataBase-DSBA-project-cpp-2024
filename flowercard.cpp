@@ -33,6 +33,8 @@ FlowerCard::FlowerCard(QWidget *parent)
 
     setWindowTitle("Bloom Baze | Description of the flower");
     setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico"));
+
+    setFixedSize(size());
 }
 
 // Деструктор FlowerCard отвечает за освобождение ресурсов, используемых объектом.

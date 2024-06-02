@@ -22,15 +22,21 @@ class GardnerWindow : public QWidget
 public:
     explicit GardnerWindow(QStringList flowNameList, QWidget *parent = nullptr); // Конструктор класса, отвечает за инициализацию объекта.
 
-private:
-    QSettings *auth{}; // Настройки аутентификации.
+    QLineEdit *le_login{}; // Поле ввода логина.
+
+    // Слот showGardenerMain отвечает за отображение главного окна садовника.
+    // На вход ничего не принимает.
+    // На выход ничего не возвращает.
+    void showGardenerMain();
 
     QLabel *lb_login{}; // Метка для ввода логина.
-    QLineEdit *le_login{}; // Поле ввода логина.
     QLabel *lb_password{}; // Метка для ввода пароля.
     QLineEdit *le_password{}; // Поле ввода пароля.
     QPushButton *pb_access{}; // Кнопка доступа.
     QPushButton *pb_exit{}; // Кнопка выхода.
+
+private:
+    QSettings *auth{}; // Настройки аутентификации.
     QPushButton *pb_logout{}; // Кнопка выхода из системы.
 
     QGridLayout *mainLayout{}; // Основная компоновка.
@@ -72,10 +78,6 @@ private:
     void prepareNotesTable(QSettings &gardnerSettings);
 
 private slots:
-    // Слот showGardenerMain отвечает за отображение главного окна садовника.
-    // На вход ничего не принимает.
-    // На выход ничего не возвращает.
-    void showGardenerMain();
 
     // Слот logout отвечает за выход из системы.
     // На вход ничего не принимает.

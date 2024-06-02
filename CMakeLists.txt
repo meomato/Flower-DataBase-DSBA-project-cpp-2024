@@ -12,6 +12,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+include_directories(${CMAKE_SOURCE_DIR})
+
 set(PROJECT_SOURCES
     main.cpp
     mainwindow.cpp
@@ -22,6 +24,7 @@ set(PROJECT_SOURCES
     flowercard.h flowercard.cpp flowercard.ui
     compflow.h compflow.cpp compflow.ui
     gardnerwindow.h gardnerwindow.cpp
+    informationwind.h informationwind.cpp informationwind.ui
     icon_1.qrc
     app_icon.rc
 )
@@ -30,8 +33,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(BloomBaze
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        informationwind.h informationwind.cpp informationwind.ui
-
     )
 else()
     if(ANDROID)
@@ -77,7 +78,7 @@ install(FILES img/purple_flower_icon_transparent.ico DESTINATION ${CMAKE_INSTALL
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/app_icon.rc DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 install(TARGETS BloomBaze
-    BUNDLE DESTINATION .
+    BUNDLE DESTINATION ${CMAKE_INSTALL_BINDIR}
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
@@ -85,3 +86,30 @@ install(TARGETS BloomBaze
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(BloomBaze)
 endif()
+
+# Добавление Google Test
+add_subdirectory(external/googletest)
+
+# Настройка тестов
+enable_testing()
+
+set(TEST_SOURCES
+    tests/test_main.cpp
+)
+
+set(TEST_PROJECT_SOURCES
+    mainwindow.cpp
+    flowercontainer.cpp
+    flowerlabel.cpp
+    flowercard.cpp
+    compflow.cpp
+    gardnerwindow.cpp
+    informationwind.cpp
+    tests/test_main.cpp
+)
+
+add_executable(runTests ${TEST_PROJECT_SOURCES})
+target_link_libraries(runTests gtest gtest_main Qt${QT_VERSION_MAJOR}::Widgets)
+include_directories(${CMAKE_SOURCE_DIR})
+
+add_test(NAME runTests COMMAND runTests)

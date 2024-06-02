@@ -13,6 +13,7 @@ CompFlow::CompFlow(QWidget *parent)
     ui->setupUi(this);
     setWindowTitle("Bloom Baze | Flower Comparison"); // Установка заголовка окна
     setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico")); // Установка иконки окна
+
 }
 
 // Деструктор CompFlow отвечает за освобождение ресурсов, используемых объектом.

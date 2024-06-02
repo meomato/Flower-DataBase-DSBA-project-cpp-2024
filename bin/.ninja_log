@@ -1,60 +1,118 @@
 # ninja log v5
-29	1286	7389611598379747	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/mocs_compilation.cpp	fe7f69b7a5dbdf1e
-571	5053	7389647332684133	CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj	e00e765889b95209
-1287	1448	7389611600745690	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp	2d70489e9e3f227d
-548	3255	7389647314705757	CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj	f884b4407fdeb62b
-529	742	7390483452995774	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
-521	4761	7390485554755546	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
-527	4168	7390485548821839	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	eb5dfb7e69425bf9
-514	4818	7390485555336758	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
-773	1487	7390483460544369	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj	9d753804f7a1398a
-1622	6321	7390475437947164	CMakeFiles/BloomBaze.dir/main.cpp.obj	9543e177dbee4b4a
-508	9322	7390485600311234	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
-62	71	0	clean	9c4b4372737ab8da
-541	3369	7389647315734059	CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj	6a277099a01da64
-9322	9846	7390485605416344	BloomBaze.exe	bcbe788f456cfbaf
-67	480	7390485511929318	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-31	62	0	CMakeFiles/clean.additional	7155004b3956b606
-67	480	7390485511929318	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
-529	742	7390483452995774	BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
+423	633	7390558422744873	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/timestamp	86752703b1fd9be6
+1426	10767	7390571854973340	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	dc2701b7d13e0a0b
+173	422	7390558420639082	external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp	f0f0d0e9113f0f15
+1944	2084	7390558437342318	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
+57	172	7390558418275504	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_autogen/timestamp	4579ca5fab6e36a3
+179	413	7390558420463869	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/timestamp	920beab9196fe820
+971	1148	7390546801331409	lib/libgmock_main.a	92dbb5887dcc4b42
+84	1569	7390571761119011	runTests_autogen/mocs_compilation.cpp	d752e181eccf241c
+2155	2396	7390558440530579	CMakeFiles/BloomBaze.dir/app_icon.rc.obj	2bb0c42ab91a8a31
+179	413	7390558420463869	external/googletest/googletest/gtest_main_autogen/timestamp	920beab9196fe820
+173	422	7390558420639082	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp	f0f0d0e9113f0f15
+2486	7439	7390558489866187	CMakeFiles/runTests.dir/flowercontainer.cpp.obj	9554e055f259da8b
+1576	11246	7390571859745886	CMakeFiles/runTests.dir/mainwindow.cpp.obj	3bd7f2e73978405b
 29	1286	7389611598379747	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/timestamp	fe7f69b7a5dbdf1e
-67	480	7390485511929318	BloomBaze_autogen/timestamp	a7735ad08d369d38
-67	480	7390485511929318	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-26	598	7390487546020514	build.ninja	ef40ac5c29a4b213
-1615	7488	7390475449599516	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj	26da26d82f648f41
-29	1286	7389611598379747	flowers_autogen/timestamp	fe7f69b7a5dbdf1e
-1392	1630	7389615419341676	CMakeFiles/BloomBaze.dir/app_icon.rc.obj	10cce1bf452c7b8d
+1287	1448	7389611600745690	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp	2d70489e9e3f227d
+1433	7908	7390571824061375	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	7a1c36cf908b6eca
+173	422	7390558420639082	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_autogen/timestamp	f0f0d0e9113f0f15
+1459	8187	7390571829148040	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	7d966f66ca1c5a98
+11246	11845	7390571865644841	runTests.exe	d78cfc7d607b2ab0
+1439	7701	7390571823941408	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	e87dfe56b8a0ca81
+76	1412	7390571760008722	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+16437	16520	7390546267873982	external/googletest/googletest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.obj	7b46d0fb4aa6df32
+76	1412	7390571760008722	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+16441	17463	7390546277321100	external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	17344d236ee8360e
+20731	21849	7390546321178638	external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	e0d9ef446bcea0fb
+84	1569	7390571761119011	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/mocs_compilation.cpp	d752e181eccf241c
+173	422	7390558420639082	external/googletest/googlemock/gmock_autogen/timestamp	f0f0d0e9113f0f15
+423	633	7390558422744873	external/googletest/googlemock/gmock_main_autogen/timestamp	86752703b1fd9be6
+80	163	7390546104326193	external/googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj	9fb36b3a8602e546
+57	172	7390558418275504	external/googletest/googletest/gtest_autogen/mocs_compilation.cpp	4579ca5fab6e36a3
+10767	11113	7390571858368924	BloomBaze.exe	3b95dd48e0ca7995
+1569	8795	7390571835259569	CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj	51b18895c2a768fd
+16428	16521	7390546267883984	external/googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj	749b41c48221fda2
+17	79	0	CMakeFiles/clean.additional	7155004b3956b606
+2098	8673	7390558492898931	CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj	77994fc18c650856
+423	633	7390558422744873	external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp	86752703b1fd9be6
+84	1569	7390571761119011	runTests_autogen/timestamp	d752e181eccf241c
+1607	9269	7390571839995670	CMakeFiles/runTests.dir/gardnerwindow.cpp.obj	5b8c346c087dd4ec
+16220	16428	7390546266956567	lib/libgtest.a	835799f0e9c145b5
+34	841	7390578585264864	build.ninja	ef40ac5c29a4b213
+84	16220	7390546264660780	external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	a0b9a72485eea120
 29	1286	7389611598379747	flowers_autogen/mocs_compilation.cpp	fe7f69b7a5dbdf1e
+57	172	7390558418275504	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_autogen/mocs_compilation.cpp	4579ca5fab6e36a3
+1413	8667	7390571833964236	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj	6f00cefb304b0cba
+29	1286	7389611598379747	flowers_autogen/timestamp	fe7f69b7a5dbdf1e
+423	633	7390558422744873	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp	86752703b1fd9be6
+57	172	7390558418275504	external/googletest/googletest/gtest_autogen/timestamp	4579ca5fab6e36a3
+16432	20596	7390546308598876	external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	da733070cbb5508c
+1452	9102	7390571838315351	CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj	6631de9cda2658f7
+1614	6978	7390571815266107	CMakeFiles/runTests.dir/informationwind.cpp.obj	5dc534fb9ea78c
+29	1286	7389611598379747	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/flowers_autogen/mocs_compilation.cpp	fe7f69b7a5dbdf1e
+20725	20811	7390546310797336	external/googletest/googlemock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.obj	82af37ee4c4add0f
+179	413	7390558420463869	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp	920beab9196fe820
+76	1412	7390571760008722	BloomBaze_autogen/timestamp	a7735ad08d369d38
 1287	1448	7389611600745690	flowers_autogen/EWIEGA46WW/qrc_icon_1.cpp	2d70489e9e3f227d
-63	329	7390488007963495	BloomBaze_autogen/timestamp	a7735ad08d369d38
-63	329	7390488007963495	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-63	329	7390488007963495	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
-63	329	7390488007963495	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-344	459	7390488009196032	BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
-344	459	7390488009196032	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
-474	991	7390488014602194	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj	9d753804f7a1398a
-471	5540	7390488060069656	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	eb5dfb7e69425bf9
-467	5992	7390488064573077	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
-463	6070	7390488065371109	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
-459	8784	7390488092465047	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
-8784	9425	7390488098828118	BloomBaze.exe	bcbe788f456cfbaf
-54	326	7390488637812172	BloomBaze_autogen/timestamp	a7735ad08d369d38
-54	326	7390488637812172	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-54	326	7390488637812172	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
-54	326	7390488637812172	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-352	2253	7390488657058690	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	eb5dfb7e69425bf9
-348	2808	7390488662625988	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
-345	2887	7390488663411384	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
-341	5368	7390488688188228	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
-5368	5638	7390488690781021	BloomBaze.exe	bcbe788f456cfbaf
-15	1024	7390509599552161	BloomBaze_autogen/timestamp	a7735ad08d369d38
-15	1024	7390509599552161	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-15	1024	7390509599552161	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
-15	1024	7390509599552161	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
-1046	3631	7390509626258730	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	eb5dfb7e69425bf9
-1041	4135	7390509631289303	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	d5641268b9568adb
-1037	4191	7390509631855699	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	728c703337301583
-1029	4307	7390509633030864	CMakeFiles/BloomBaze.dir/main.cpp.obj	9543e177dbee4b4a
-1025	4987	7390509639824863	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj	26da26d82f648f41
-1033	6781	7390509657738307	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	8a3cdc51ce163e7f
-6781	7121	7390509661097364	BloomBaze.exe	bcbe788f456cfbaf
+179	413	7390558420463869	external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp	920beab9196fe820
+2103	7503	7390558491478225	CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj	951a9fcab6abe155
+2500	7567	7390558491873585	CMakeFiles/runTests.dir/flowerlabel.cpp.obj	7623648d673a9eef
+20597	20725	7390546309928502	lib/libgmock.a	531052b3f49465b2
+1600	7619	7390571823369258	CMakeFiles/runTests.dir/compflow.cpp.obj	42a5e2821b31112a
+1944	2084	7390558437342318	BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
+76	1412	7390571760008722	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
+1419	6981	7390571816281552	CMakeFiles/BloomBaze.dir/main.cpp.obj	a471c26fea584efe
+17464	17563	7390546278316496	lib/libgtest_main.a	eea0300e379d36f4
+1593	7910	7390571824041373	CMakeFiles/runTests.dir/flowercard.cpp.obj	7629b9057c6208d3
+84	1569	7390571761119011	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/timestamp	d752e181eccf241c
+2176	2898	7390558445348672	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj	6c0db34da9eca10d
+1642	9586	7390571843171256	CMakeFiles/runTests.dir/tests/test_main.cpp.obj	79987f0efaa47fd4
+80	103	0	clean	9c4b4372737ab8da
+49	167	7390579444901181	external/googletest/googletest/gtest_autogen/timestamp	4579ca5fab6e36a3
+49	167	7390579444901181	external/googletest/googletest/gtest_autogen/mocs_compilation.cpp	4579ca5fab6e36a3
+49	167	7390579444901181	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_autogen/timestamp	4579ca5fab6e36a3
+49	167	7390579444901181	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_autogen/mocs_compilation.cpp	4579ca5fab6e36a3
+177	413	7390579447254171	external/googletest/googletest/gtest_main_autogen/timestamp	920beab9196fe820
+177	413	7390579447254171	external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp	920beab9196fe820
+177	413	7390579447254171	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/timestamp	920beab9196fe820
+177	413	7390579447254171	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp	920beab9196fe820
+168	422	7390579447304300	external/googletest/googlemock/gmock_autogen/timestamp	f0f0d0e9113f0f15
+168	422	7390579447304300	external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp	f0f0d0e9113f0f15
+168	422	7390579447304300	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_autogen/timestamp	f0f0d0e9113f0f15
+168	422	7390579447304300	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp	f0f0d0e9113f0f15
+423	602	7390579449143098	external/googletest/googlemock/gmock_main_autogen/timestamp	86752703b1fd9be6
+423	602	7390579449143098	external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp	86752703b1fd9be6
+423	602	7390579449143098	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/timestamp	86752703b1fd9be6
+423	602	7390579449143098	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp	86752703b1fd9be6
+43	1862	7390579460552801	BloomBaze_autogen/timestamp	a7735ad08d369d38
+43	1862	7390579460552801	BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+43	1862	7390579460552801	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/timestamp	a7735ad08d369d38
+43	1862	7390579460552801	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/mocs_compilation.cpp	a7735ad08d369d38
+1863	2020	7390579463377842	BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
+1863	2020	7390579463377842	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp	c42193d228746177
+2078	2343	7390579466643791	CMakeFiles/BloomBaze.dir/app_icon.rc.obj	2bb0c42ab91a8a31
+414	2552	7390579466393748	runTests_autogen/timestamp	d752e181eccf241c
+414	2552	7390579466393748	runTests_autogen/mocs_compilation.cpp	d752e181eccf241c
+414	2552	7390579466393748	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/timestamp	d752e181eccf241c
+414	2552	7390579466393748	C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/mocs_compilation.cpp	d752e181eccf241c
+2084	2801	7390579470890484	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj	6c0db34da9eca10d
+2040	7561	7390579504363745	CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj	951a9fcab6abe155
+2576	7572	7390579507479970	CMakeFiles/runTests.dir/flowerlabel.cpp.obj	7623648d673a9eef
+2070	7580	7390579509210741	CMakeFiles/BloomBaze.dir/informationwind.cpp.obj	7d966f66ca1c5a98
+2568	7590	7390579514377725	CMakeFiles/runTests.dir/flowercontainer.cpp.obj	9554e055f259da8b
+2046	7600	7390579517354056	CMakeFiles/BloomBaze.dir/flowercard.cpp.obj	7a1c36cf908b6eca
+2054	7660	7390579519505472	CMakeFiles/BloomBaze.dir/compflow.cpp.obj	e87dfe56b8a0ca81
+2025	7822	7390579520926183	CMakeFiles/BloomBaze.dir/main.cpp.obj	a471c26fea584efe
+2034	8020	7390579522949609	CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj	77994fc18c650856
+2802	8653	7390579529712097	CMakeFiles/runTests.dir/flowercard.cpp.obj	7629b9057c6208d3
+2021	8907	7390579532252470	CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj	6f00cefb304b0cba
+2553	9605	7390579539245143	CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj	51b18895c2a768fd
+2063	9635	7390579539525104	CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj	6631de9cda2658f7
+7581	11256	7390579555767385	CMakeFiles/runTests.dir/informationwind.cpp.obj	5dc534fb9ea78c
+7562	11858	7390579561781509	CMakeFiles/runTests.dir/compflow.cpp.obj	42a5e2821b31112a
+2030	12444	7390579567608858	CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj	dc2701b7d13e0a0b
+2560	12930	7390579572458760	CMakeFiles/runTests.dir/mainwindow.cpp.obj	3bd7f2e73978405b
+12445	12949	7390579572538770	BloomBaze.exe	3b95dd48e0ca7995
+7572	13156	7390579574769404	CMakeFiles/runTests.dir/gardnerwindow.cpp.obj	5b8c346c087dd4ec
+7590	13292	7390579576147389	CMakeFiles/runTests.dir/tests/test_main.cpp.obj	79987f0efaa47fd4
+13293	13795	7390579580944363	runTests.exe	d78cfc7d607b2ab0

@@ -12,7 +12,7 @@ GardnerWindow::GardnerWindow(QStringList flowNameList, QWidget *parent)
     setWindowTitle("Bloom Baze | Registration/Authorization");
     setWindowIcon(QIcon(":/img/purple_flower_icon_transparent.ico"));
 
-    setFixedSize(200, 150); // Фиксированный размер окна
+    setFixedSize(225, 175); // Фиксированный размер окна
 
     mainLayout = new QGridLayout(); // Основная компоновка
     setLayout(mainLayout);
@@ -43,6 +43,8 @@ GardnerWindow::GardnerWindow(QStringList flowNameList, QWidget *parent)
     mainLayout->addWidget(pb_access, 4, 0);
     mainLayout->addWidget(pb_exit, 4, 1);
     mainLayout->addWidget(pb_logout, 5, 0, 1, 2);
+
+    setFixedSize(size());
 }
 
 // Метод logout отвечает за выход из системы и возврат к окну авторизации.

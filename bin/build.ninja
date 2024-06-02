@@ -53,88 +53,110 @@ build CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj: CXX_C
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\BloomBaze_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir\BloomBaze_autogen
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/main.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/main.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/mainwindow.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\mainwindow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowercontainer.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\flowercontainer.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowerlabel.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\flowerlabel.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/flowercard.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowercard.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\flowercard.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/compflow.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/compflow.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\compflow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/gardnerwindow.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\gardnerwindow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
-
-build CMakeFiles/BloomBaze.dir/app_icon.rc.obj: RC_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/app_icon.rc || cmake_object_order_depends_target_BloomBaze
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\BloomBaze.dir\app_icon.rc.obj.d
-  INCLUDES = -I "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I C:/msys64/mingw64/include/qt6/QtCore -I C:/msys64/mingw64/include/qt6 -I C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -I C:/msys64/mingw64/include/qt6/QtWidgets -I C:/msys64/mingw64/include/qt6/QtGui -I C:/msys64/mingw64/include
-  OBJECT_DIR = CMakeFiles\BloomBaze.dir
-  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/informationwind.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/informationwind.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\informationwind.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
+
+build CMakeFiles/BloomBaze.dir/app_icon.rc.obj: RC_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/app_icon.rc || cmake_object_order_depends_target_BloomBaze
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\BloomBaze.dir\app_icon.rc.obj.d
+  INCLUDES = -I "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I "C:/Users/doron/OneDrive/Рабочий стол/flowers" -I C:/msys64/mingw64/include/qt6/QtCore -I C:/msys64/mingw64/include/qt6 -I C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -I C:/msys64/mingw64/include/qt6/QtWidgets -I C:/msys64/mingw64/include/qt6/QtGui -I C:/msys64/mingw64/include
+  OBJECT_DIR = CMakeFiles\BloomBaze.dir
+  OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 build CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj: CXX_COMPILER__BloomBaze_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp || cmake_object_order_depends_target_BloomBaze
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\BloomBaze.dir\BloomBaze_autogen\EWIEGA46WW\qrc_icon_1.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/BloomBaze_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   OBJECT_FILE_DIR = CMakeFiles\BloomBaze.dir\BloomBaze_autogen\EWIEGA46WW
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
+  TARGET_PDB = BloomBaze.pdb
 
 
 # =============================================================================
@@ -144,16 +166,147 @@ build CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj: 
 #############################################
 # Link the executable BloomBaze.exe
 
-build BloomBaze.exe: CXX_EXECUTABLE_LINKER__BloomBaze_Debug CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj CMakeFiles/BloomBaze.dir/main.cpp.obj CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj CMakeFiles/BloomBaze.dir/flowercard.cpp.obj CMakeFiles/BloomBaze.dir/compflow.cpp.obj CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj CMakeFiles/BloomBaze.dir/app_icon.rc.obj CMakeFiles/BloomBaze.dir/informationwind.cpp.obj CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || BloomBaze_autogen BloomBaze_autogen_timestamp_deps
+build BloomBaze.exe: CXX_EXECUTABLE_LINKER__BloomBaze_Debug CMakeFiles/BloomBaze.dir/BloomBaze_autogen/mocs_compilation.cpp.obj CMakeFiles/BloomBaze.dir/main.cpp.obj CMakeFiles/BloomBaze.dir/mainwindow.cpp.obj CMakeFiles/BloomBaze.dir/flowercontainer.cpp.obj CMakeFiles/BloomBaze.dir/flowerlabel.cpp.obj CMakeFiles/BloomBaze.dir/flowercard.cpp.obj CMakeFiles/BloomBaze.dir/compflow.cpp.obj CMakeFiles/BloomBaze.dir/gardnerwindow.cpp.obj CMakeFiles/BloomBaze.dir/informationwind.cpp.obj CMakeFiles/BloomBaze.dir/app_icon.rc.obj CMakeFiles/BloomBaze.dir/BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || BloomBaze_autogen BloomBaze_autogen_timestamp_deps
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/msys64/mingw64/lib/libQt6Widgets.dll.a  C:/msys64/mingw64/lib/libQt6Gui.dll.a  C:/msys64/mingw64/lib/libQt6Core.dll.a  -lmpr  -luserenv  -lmingw32  C:/msys64/mingw64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BloomBaze.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\BloomBaze.dir\
   TARGET_FILE = BloomBaze.exe
   TARGET_IMPLIB = libBloomBaze.dll.a
-  TARGET_PDB = BloomBaze.exe.dbg
+  TARGET_PDB = BloomBaze.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target runTests
+
+
+#############################################
+# Order-only phony target for runTests
+
+build cmake_object_order_depends_target_runTests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main runTests_autogen runTests_autogen/mocs_compilation.cpp runTests_autogen/timestamp runTests_autogen_timestamp_deps
+
+build CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/runTests_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir\runTests_autogen
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+build CMakeFiles/runTests.dir/mainwindow.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/mainwindow.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\mainwindow.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+build CMakeFiles/runTests.dir/flowercontainer.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowercontainer.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\flowercontainer.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+build CMakeFiles/runTests.dir/flowerlabel.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowerlabel.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\flowerlabel.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+build CMakeFiles/runTests.dir/flowercard.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/flowercard.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\flowercard.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+build CMakeFiles/runTests.dir/compflow.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/compflow.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\compflow.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+build CMakeFiles/runTests.dir/gardnerwindow.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/gardnerwindow.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\gardnerwindow.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+build CMakeFiles/runTests.dir/informationwind.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/informationwind.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\informationwind.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+build CMakeFiles/runTests.dir/tests/test_main.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/tests/test_main.cpp || cmake_object_order_depends_target_runTests
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\runTests.dir\tests\test_main.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_PDB = runTests.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target runTests
+
+
+#############################################
+# Link the executable runTests.exe
+
+build runTests.exe: CXX_EXECUTABLE_LINKER__runTests_Debug CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj CMakeFiles/runTests.dir/mainwindow.cpp.obj CMakeFiles/runTests.dir/flowercontainer.cpp.obj CMakeFiles/runTests.dir/flowerlabel.cpp.obj CMakeFiles/runTests.dir/flowercard.cpp.obj CMakeFiles/runTests.dir/compflow.cpp.obj CMakeFiles/runTests.dir/gardnerwindow.cpp.obj CMakeFiles/runTests.dir/informationwind.cpp.obj CMakeFiles/runTests.dir/tests/test_main.cpp.obj | lib/libgtest.a lib/libgtest_main.a C$:/msys64/mingw64/lib/libQt6Widgets.dll.a lib/libgtest.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a || lib/libgtest.a lib/libgtest_main.a runTests_autogen runTests_autogen_timestamp_deps
+  FLAGS = -g
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  C:/msys64/mingw64/lib/libQt6Widgets.dll.a  lib/libgtest.a  C:/msys64/mingw64/lib/libQt6Gui.dll.a  C:/msys64/mingw64/lib/libQt6Core.dll.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\runTests.dir\
+  TARGET_FILE = runTests.exe
+  TARGET_IMPLIB = librunTests.dll.a
+  TARGET_PDB = runTests.pdb
+
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin" && C:\msys64\mingw64\bin\ctest.exe --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
 
 
 #############################################
@@ -234,6 +387,18 @@ build BloomBaze_autogen: phony CMakeFiles/BloomBaze_autogen BloomBaze_autogen/in
 
 
 #############################################
+# Utility command for runTests_autogen_timestamp_deps
+
+build runTests_autogen_timestamp_deps: phony CMakeFiles/runTests_autogen_timestamp_deps lib/libgtest.a lib/libgtest_main.a
+
+
+#############################################
+# Utility command for runTests_autogen
+
+build runTests_autogen: phony CMakeFiles/runTests_autogen runTests_autogen/include/ui_mainwindow.h runTests_autogen/include/ui_flowercard.h runTests_autogen/include/ui_compflow.h runTests_autogen/include/ui_informationwind.h runTests_autogen/timestamp runTests_autogen/mocs_compilation.cpp runTests_autogen_timestamp_deps
+
+
+#############################################
 # Custom command for BloomBaze_autogen\timestamp
 
 build BloomBaze_autogen/timestamp BloomBaze_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}BloomBaze_autogen/timestamp ${cmake_ninja_workdir}BloomBaze_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe || BloomBaze_autogen_timestamp_deps
@@ -253,9 +418,19 @@ build BloomBaze_autogen/EWIEGA46WW/qrc_icon_1.cpp | ${cmake_ninja_workdir}BloomB
 
 
 #############################################
+# Custom command for runTests_autogen\timestamp
+
+build runTests_autogen/timestamp runTests_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}runTests_autogen/timestamp ${cmake_ninja_workdir}runTests_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps external/googletest/googletest/gtest_main_autogen external/googletest/googletest/gtest_main_autogen_timestamp_deps lib/libgtest.a lib/libgtest_main.a runTests_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/runTests_autogen.dir/AutogenInfo.json" Debug && C:\msys64\mingw64\bin\cmake.exe -E touch "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/timestamp" && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/runTests_autogen/deps" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/05fea069bdfc1a8d3ba7c4af63e2b9408368becffcceccc15633a4efb1da57e5.d""
+  DESC = Automatic MOC and UIC for target runTests
+  depfile = C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/05fea069bdfc1a8d3ba7c4af63e2b9408368becffcceccc15633a4efb1da57e5.d
+  restat = 1
+
+
+#############################################
 # Phony custom command for CMakeFiles\BloomBaze_autogen_timestamp_deps
 
-build CMakeFiles/BloomBaze_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/BloomBaze_autogen_timestamp_deps: phony C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/share/qt6/bin/uic.exe C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/lib/libQt6Widgets.dll.a
+build CMakeFiles/BloomBaze_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/BloomBaze_autogen_timestamp_deps: phony C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6Widgets.dll.a
 
 
 #############################################
@@ -263,10 +438,614 @@ build CMakeFiles/BloomBaze_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeF
 
 build CMakeFiles/BloomBaze_autogen BloomBaze_autogen/include/ui_mainwindow.h BloomBaze_autogen/include/ui_flowercard.h BloomBaze_autogen/include/ui_compflow.h BloomBaze_autogen/include/ui_informationwind.h | ${cmake_ninja_workdir}CMakeFiles/BloomBaze_autogen ${cmake_ninja_workdir}BloomBaze_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}BloomBaze_autogen/include/ui_flowercard.h ${cmake_ninja_workdir}BloomBaze_autogen/include/ui_compflow.h ${cmake_ninja_workdir}BloomBaze_autogen/include/ui_informationwind.h: phony BloomBaze_autogen/timestamp || BloomBaze_autogen_timestamp_deps
 
+
+#############################################
+# Phony custom command for CMakeFiles\runTests_autogen_timestamp_deps
+
+build CMakeFiles/runTests_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/runTests_autogen_timestamp_deps: phony C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe C$:/msys64/mingw64/lib/libQt6Widgets.dll.a lib/libgtest_main.a lib/libgtest.a || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps external/googletest/googletest/gtest_main_autogen external/googletest/googletest/gtest_main_autogen_timestamp_deps lib/libgtest.a lib/libgtest_main.a
+
+
+#############################################
+# Phony custom command for CMakeFiles\runTests_autogen
+
+build CMakeFiles/runTests_autogen runTests_autogen/include/ui_mainwindow.h runTests_autogen/include/ui_flowercard.h runTests_autogen/include/ui_compflow.h runTests_autogen/include/ui_informationwind.h | ${cmake_ninja_workdir}CMakeFiles/runTests_autogen ${cmake_ninja_workdir}runTests_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}runTests_autogen/include/ui_flowercard.h ${cmake_ninja_workdir}runTests_autogen/include/ui_compflow.h ${cmake_ninja_workdir}runTests_autogen/include/ui_informationwind.h: phony runTests_autogen/timestamp || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps external/googletest/googletest/gtest_main_autogen external/googletest/googletest/gtest_main_autogen_timestamp_deps lib/libgtest.a lib/libgtest_main.a runTests_autogen_timestamp_deps
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/doron/OneDrive/Рабочий стол/flowers/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for test
+
+build external/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest" && C:\msys64\mingw64\bin\ctest.exe --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build external/googletest/test: phony external/googletest/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build external/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest" && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build external/googletest/edit_cache: phony external/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build external/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest" && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\doron\OneDrive\Рабочий стол\flowers" -B"C:\Users\doron\OneDrive\Рабочий стол\flowers\bin""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build external/googletest/rebuild_cache: phony external/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build external/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build external/googletest/CMakeFiles/install.util: CUSTOM_COMMAND external/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest" && C:\msys64\mingw64\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build external/googletest/install: phony external/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build external/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND external/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest" && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build external/googletest/install/local: phony external/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build external/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest" && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build external/googletest/install/strip: phony external/googletest/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Order-only phony target for gmock
+
+build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest external/googletest/googlemock/gmock_autogen external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp external/googletest/googlemock/gmock_autogen/timestamp external/googletest/googlemock/gmock_autogen_timestamp_deps
+
+build external/googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__gmock_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_gmock
+  DEP_FILE = external\googletest\googlemock\CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest"
+  OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock.dir
+  OBJECT_FILE_DIR = external\googletest\googlemock\CMakeFiles\gmock.dir\gmock_autogen
+  TARGET_COMPILE_PDB = lib\libgmockpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin\libgmockpdb_debug_postfix-NOTFOUND.pdb
+
+build external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+  DEP_FILE = external\googletest\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest"
+  OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock.dir
+  OBJECT_FILE_DIR = external\googletest\googlemock\CMakeFiles\gmock.dir\src
+  TARGET_COMPILE_PDB = lib\libgmockpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin\libgmockpdb_debug_postfix-NOTFOUND.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Link the static library lib\libgmock.a
+
+build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug external/googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj || external/googletest/googlemock/gmock_autogen external/googletest/googlemock/gmock_autogen_timestamp_deps lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lib\libgmockpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_FILE = lib\libgmock.a
+  TARGET_PDB = bin\libgmockpdb_debug_postfix-NOTFOUND.pdb
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Order-only phony target for gmock_main
+
+build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest external/googletest/googlemock/gmock_main_autogen external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp external/googletest/googlemock/gmock_main_autogen/timestamp external/googletest/googlemock/gmock_main_autogen_timestamp_deps
+
+build external/googletest/googlemock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__gmock_main_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_gmock_main
+  DEP_FILE = external\googletest\googlemock\CMakeFiles\gmock_main.dir\gmock_main_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest"
+  OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = external\googletest\googlemock\CMakeFiles\gmock_main.dir\gmock_main_autogen
+  TARGET_COMPILE_PDB = lib\libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin\libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+
+build external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+  DEP_FILE = external\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest"
+  OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = external\googletest\googlemock\CMakeFiles\gmock_main.dir\src
+  TARGET_COMPILE_PDB = lib\libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin\libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Link the static library lib\libgmock_main.a
+
+build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug external/googletest/googlemock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.obj external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj || external/googletest/googlemock/gmock_main_autogen external/googletest/googlemock/gmock_main_autogen_timestamp_deps lib/libgmock.a lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lib\libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_FILE = lib\libgmock_main.a
+  TARGET_PDB = bin\libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+
+
+#############################################
+# Utility command for test
+
+build external/googletest/googlemock/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googlemock" && C:\msys64\mingw64\bin\ctest.exe --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build external/googletest/googlemock/test: phony external/googletest/googlemock/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build external/googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googlemock" && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build external/googletest/googlemock/edit_cache: phony external/googletest/googlemock/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build external/googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googlemock" && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\doron\OneDrive\Рабочий стол\flowers" -B"C:\Users\doron\OneDrive\Рабочий стол\flowers\bin""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build external/googletest/googlemock/rebuild_cache: phony external/googletest/googlemock/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build external/googletest/googlemock/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build external/googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND external/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googlemock" && C:\msys64\mingw64\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build external/googletest/googlemock/install: phony external/googletest/googlemock/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build external/googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND external/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googlemock" && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build external/googletest/googlemock/install/local: phony external/googletest/googlemock/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build external/googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googlemock" && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build external/googletest/googlemock/install/strip: phony external/googletest/googlemock/CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for gmock_autogen_timestamp_deps
+
+build external/googletest/googlemock/gmock_autogen_timestamp_deps: phony external/googletest/googlemock/CMakeFiles/gmock_autogen_timestamp_deps lib/libgtest.a
+
+
+#############################################
+# Utility command for gmock_autogen
+
+build external/googletest/googlemock/gmock_autogen: phony external/googletest/googlemock/CMakeFiles/gmock_autogen external/googletest/googlemock/gmock_autogen/timestamp external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp external/googletest/googlemock/gmock_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for gmock_main_autogen_timestamp_deps
+
+build external/googletest/googlemock/gmock_main_autogen_timestamp_deps: phony external/googletest/googlemock/CMakeFiles/gmock_main_autogen_timestamp_deps lib/libgmock.a
+
+
+#############################################
+# Utility command for gmock_main_autogen
+
+build external/googletest/googlemock/gmock_main_autogen: phony external/googletest/googlemock/CMakeFiles/gmock_main_autogen external/googletest/googlemock/gmock_main_autogen/timestamp external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp external/googletest/googlemock/gmock_main_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for external\googletest\googlemock\gmock_autogen\timestamp
+
+build external/googletest/googlemock/gmock_autogen/timestamp external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}external/googletest/googlemock/gmock_autogen/timestamp ${cmake_ninja_workdir}external/googletest/googlemock/gmock_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe || external/googletest/googlemock/gmock_autogen_timestamp_deps external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps lib/libgtest.a
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googlemock" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/CMakeFiles/gmock_autogen.dir/AutogenInfo.json" Debug && C:\msys64\mingw64\bin\cmake.exe -E touch "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_autogen/timestamp" && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_autogen/deps" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/3f0b5f97cc068f7c0c2fb015a3545af84a3e263cc72fdb7d5aebf70e6fe62f84.d""
+  DESC = Automatic MOC and UIC for target gmock
+  depfile = C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/3f0b5f97cc068f7c0c2fb015a3545af84a3e263cc72fdb7d5aebf70e6fe62f84.d
+  restat = 1
+
+
+#############################################
+# Custom command for external\googletest\googlemock\gmock_main_autogen\timestamp
+
+build external/googletest/googlemock/gmock_main_autogen/timestamp external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}external/googletest/googlemock/gmock_main_autogen/timestamp ${cmake_ninja_workdir}external/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe || external/googletest/googlemock/gmock_autogen external/googletest/googlemock/gmock_autogen_timestamp_deps external/googletest/googlemock/gmock_main_autogen_timestamp_deps external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps lib/libgmock.a lib/libgtest.a
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googlemock" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/AutogenInfo.json" Debug && C:\msys64\mingw64\bin\cmake.exe -E touch "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/timestamp" && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock/gmock_main_autogen/deps" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/64832bcbd9c7fea583331965a58a960e052cd550a0266f4834b47462529e8597.d""
+  DESC = Automatic MOC and UIC for target gmock_main
+  depfile = C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/64832bcbd9c7fea583331965a58a960e052cd550a0266f4834b47462529e8597.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for external\googletest\googlemock\CMakeFiles\gmock_autogen_timestamp_deps
+
+build external/googletest/googlemock/CMakeFiles/gmock_autogen_timestamp_deps | ${cmake_ninja_workdir}external/googletest/googlemock/CMakeFiles/gmock_autogen_timestamp_deps: phony C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe lib/libgtest.a || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps lib/libgtest.a
+
+
+#############################################
+# Phony custom command for external\googletest\googlemock\CMakeFiles\gmock_autogen
+
+build external/googletest/googlemock/CMakeFiles/gmock_autogen | ${cmake_ninja_workdir}external/googletest/googlemock/CMakeFiles/gmock_autogen: phony external/googletest/googlemock/gmock_autogen/timestamp || external/googletest/googlemock/gmock_autogen_timestamp_deps external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps lib/libgtest.a
+
+
+#############################################
+# Phony custom command for external\googletest\googlemock\CMakeFiles\gmock_main_autogen_timestamp_deps
+
+build external/googletest/googlemock/CMakeFiles/gmock_main_autogen_timestamp_deps | ${cmake_ninja_workdir}external/googletest/googlemock/CMakeFiles/gmock_main_autogen_timestamp_deps: phony C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe lib/libgmock.a || external/googletest/googlemock/gmock_autogen external/googletest/googlemock/gmock_autogen_timestamp_deps external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps lib/libgmock.a lib/libgtest.a
+
+
+#############################################
+# Phony custom command for external\googletest\googlemock\CMakeFiles\gmock_main_autogen
+
+build external/googletest/googlemock/CMakeFiles/gmock_main_autogen | ${cmake_ninja_workdir}external/googletest/googlemock/CMakeFiles/gmock_main_autogen: phony external/googletest/googlemock/gmock_main_autogen/timestamp || external/googletest/googlemock/gmock_autogen external/googletest/googlemock/gmock_autogen_timestamp_deps external/googletest/googlemock/gmock_main_autogen_timestamp_deps external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps lib/libgmock.a lib/libgtest.a
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googlemock/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Order-only phony target for gtest
+
+build cmake_object_order_depends_target_gtest: phony || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen/mocs_compilation.cpp external/googletest/googletest/gtest_autogen/timestamp external/googletest/googletest/gtest_autogen_timestamp_deps
+
+build external/googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__gtest_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/external/googletest/googletest/gtest_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_gtest
+  DEP_FILE = external\googletest\googletest\CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest"
+  OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest.dir
+  OBJECT_FILE_DIR = external\googletest\googletest\CMakeFiles\gtest.dir\gtest_autogen
+  TARGET_COMPILE_PDB = lib\libgtestpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin\libgtestpdb_debug_postfix-NOTFOUND.pdb
+
+build external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+  DEP_FILE = external\googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest"
+  OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest.dir
+  OBJECT_FILE_DIR = external\googletest\googletest\CMakeFiles\gtest.dir\src
+  TARGET_COMPILE_PDB = lib\libgtestpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin\libgtestpdb_debug_postfix-NOTFOUND.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Link the static library lib\libgtest.a
+
+build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug external/googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lib\libgtestpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_FILE = lib\libgtest.a
+  TARGET_PDB = bin\libgtestpdb_debug_postfix-NOTFOUND.pdb
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Order-only phony target for gtest_main
+
+build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest external/googletest/googletest/gtest_main_autogen external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp external/googletest/googletest/gtest_main_autogen/timestamp external/googletest/googletest/gtest_main_autogen_timestamp_deps
+
+build external/googletest/googletest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__gtest_main_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_gtest_main
+  DEP_FILE = external\googletest\googletest\CMakeFiles\gtest_main.dir\gtest_main_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest"
+  OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest_main.dir
+  OBJECT_FILE_DIR = external\googletest\googletest\CMakeFiles\gtest_main.dir\gtest_main_autogen
+  TARGET_COMPILE_PDB = lib\libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin\libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+
+build external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+  DEP_FILE = external\googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/include" -I"C:/Users/doron/OneDrive/Рабочий стол/flowers" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest/include" -isystem "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest"
+  OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest_main.dir
+  OBJECT_FILE_DIR = external\googletest\googletest\CMakeFiles\gtest_main.dir\src
+  TARGET_COMPILE_PDB = lib\libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin\libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Link the static library lib\libgtest_main.a
+
+build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug external/googletest/googletest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.obj external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj || external/googletest/googletest/gtest_main_autogen external/googletest/googletest/gtest_main_autogen_timestamp_deps lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lib\libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_FILE = lib\libgtest_main.a
+  TARGET_PDB = bin\libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+
+
+#############################################
+# Utility command for test
+
+build external/googletest/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googletest" && C:\msys64\mingw64\bin\ctest.exe --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build external/googletest/googletest/test: phony external/googletest/googletest/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build external/googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googletest" && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build external/googletest/googletest/edit_cache: phony external/googletest/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build external/googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googletest" && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\doron\OneDrive\Рабочий стол\flowers" -B"C:\Users\doron\OneDrive\Рабочий стол\flowers\bin""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build external/googletest/googletest/rebuild_cache: phony external/googletest/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build external/googletest/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build external/googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND external/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googletest" && C:\msys64\mingw64\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build external/googletest/googletest/install: phony external/googletest/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build external/googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND external/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googletest" && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build external/googletest/googletest/install/local: phony external/googletest/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build external/googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googletest" && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build external/googletest/googletest/install/strip: phony external/googletest/googletest/CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for gtest_autogen_timestamp_deps
+
+build external/googletest/googletest/gtest_autogen_timestamp_deps: phony external/googletest/googletest/CMakeFiles/gtest_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for gtest_autogen
+
+build external/googletest/googletest/gtest_autogen: phony external/googletest/googletest/CMakeFiles/gtest_autogen external/googletest/googletest/gtest_autogen/timestamp external/googletest/googletest/gtest_autogen/mocs_compilation.cpp external/googletest/googletest/gtest_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for gtest_main_autogen_timestamp_deps
+
+build external/googletest/googletest/gtest_main_autogen_timestamp_deps: phony external/googletest/googletest/CMakeFiles/gtest_main_autogen_timestamp_deps lib/libgtest.a
+
+
+#############################################
+# Utility command for gtest_main_autogen
+
+build external/googletest/googletest/gtest_main_autogen: phony external/googletest/googletest/CMakeFiles/gtest_main_autogen external/googletest/googletest/gtest_main_autogen/timestamp external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp external/googletest/googletest/gtest_main_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for external\googletest\googletest\gtest_autogen\timestamp
+
+build external/googletest/googletest/gtest_autogen/timestamp external/googletest/googletest/gtest_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}external/googletest/googletest/gtest_autogen/timestamp ${cmake_ninja_workdir}external/googletest/googletest/gtest_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe || external/googletest/googletest/gtest_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googletest" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/CMakeFiles/gtest_autogen.dir/AutogenInfo.json" Debug && C:\msys64\mingw64\bin\cmake.exe -E touch "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_autogen/timestamp" && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_autogen/deps" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/8a3761e152d867546eaf4298f70ea2adadfa0c377e12433f097b65c59cc36d4f.d""
+  DESC = Automatic MOC and UIC for target gtest
+  depfile = C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/8a3761e152d867546eaf4298f70ea2adadfa0c377e12433f097b65c59cc36d4f.d
+  restat = 1
+
+
+#############################################
+# Custom command for external\googletest\googletest\gtest_main_autogen\timestamp
+
+build external/googletest/googletest/gtest_main_autogen/timestamp external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}external/googletest/googletest/gtest_main_autogen/timestamp ${cmake_ninja_workdir}external/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps external/googletest/googletest/gtest_main_autogen_timestamp_deps lib/libgtest.a
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\doron\OneDrive\Рабочий стол\flowers\bin\external\googletest\googletest" && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/AutogenInfo.json" Debug && C:\msys64\mingw64\bin\cmake.exe -E touch "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/timestamp" && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/doron/OneDrive/Рабочий стол/flowers" "C:/Users/doron/OneDrive/Рабочий стол/flowers/external/googletest/googletest" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest/gtest_main_autogen/deps" "C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/b560fb4122eb45e69225d960d4a9f47c06ef8355c09b1e335e05e37914c319cc.d""
+  DESC = Automatic MOC and UIC for target gtest_main
+  depfile = C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/CMakeFiles/d/b560fb4122eb45e69225d960d4a9f47c06ef8355c09b1e335e05e37914c319cc.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for external\googletest\googletest\CMakeFiles\gtest_autogen_timestamp_deps
+
+build external/googletest/googletest/CMakeFiles/gtest_autogen_timestamp_deps | ${cmake_ninja_workdir}external/googletest/googletest/CMakeFiles/gtest_autogen_timestamp_deps: phony C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe
+
+
+#############################################
+# Phony custom command for external\googletest\googletest\CMakeFiles\gtest_autogen
+
+build external/googletest/googletest/CMakeFiles/gtest_autogen | ${cmake_ninja_workdir}external/googletest/googletest/CMakeFiles/gtest_autogen: phony external/googletest/googletest/gtest_autogen/timestamp || external/googletest/googletest/gtest_autogen_timestamp_deps
+
+
+#############################################
+# Phony custom command for external\googletest\googletest\CMakeFiles\gtest_main_autogen_timestamp_deps
+
+build external/googletest/googletest/CMakeFiles/gtest_main_autogen_timestamp_deps | ${cmake_ninja_workdir}external/googletest/googletest/CMakeFiles/gtest_main_autogen_timestamp_deps: phony C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe lib/libgtest.a || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps lib/libgtest.a
+
+
+#############################################
+# Phony custom command for external\googletest\googletest\CMakeFiles\gtest_main_autogen
+
+build external/googletest/googletest/CMakeFiles/gtest_main_autogen | ${cmake_ninja_workdir}external/googletest/googletest/CMakeFiles/gtest_main_autogen: phony external/googletest/googletest/gtest_main_autogen/timestamp || external/googletest/googletest/gtest_autogen external/googletest/googletest/gtest_autogen_timestamp_deps external/googletest/googletest/gtest_main_autogen_timestamp_deps lib/libgtest.a
+
 # =============================================================================
 # Target aliases.
 
 build BloomBaze: phony BloomBaze.exe
+
+build gmock: phony lib/libgmock.a
+
+build gmock_autogen: phony external/googletest/googlemock/gmock_autogen
+
+build gmock_autogen_timestamp_deps: phony external/googletest/googlemock/gmock_autogen_timestamp_deps
+
+build gmock_main: phony lib/libgmock_main.a
+
+build gmock_main_autogen: phony external/googletest/googlemock/gmock_main_autogen
+
+build gmock_main_autogen_timestamp_deps: phony external/googletest/googlemock/gmock_main_autogen_timestamp_deps
+
+build gtest: phony lib/libgtest.a
+
+build gtest_autogen: phony external/googletest/googletest/gtest_autogen
+
+build gtest_autogen_timestamp_deps: phony external/googletest/googletest/gtest_autogen_timestamp_deps
+
+build gtest_main: phony lib/libgtest_main.a
+
+build gtest_main_autogen: phony external/googletest/googletest/gtest_main_autogen
+
+build gtest_main_autogen_timestamp_deps: phony external/googletest/googletest/gtest_main_autogen_timestamp_deps
+
+build libgmock.a: phony lib/libgmock.a
+
+build libgmock_main.a: phony lib/libgmock_main.a
+
+build libgtest.a: phony lib/libgtest.a
+
+build libgtest_main.a: phony lib/libgtest_main.a
+
+build runTests: phony runTests.exe
 
 # =============================================================================
 # Folder targets.
@@ -276,7 +1055,28 @@ build BloomBaze: phony BloomBaze.exe
 #############################################
 # Folder: C:/Users/doron/OneDrive/Рабочий стол/flowers/bin
 
-build all: phony BloomBaze.exe
+build all: phony BloomBaze.exe runTests.exe external/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest
+
+build external/googletest/all: phony external/googletest/googlemock/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googlemock
+
+build external/googletest/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a external/googletest/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/doron/OneDrive/Рабочий стол/flowers/bin/external/googletest/googletest
+
+build external/googletest/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
 # Built-in targets
@@ -285,14 +1085,14 @@ build all: phony BloomBaze.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | .qtc/package-manager/auto-setup.cmake C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/icon_1.qrc C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/QtInstallPaths.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/FindWrapAtomic.cmake C$:/msys64/mingw64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Config.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigExtras.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Dependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Targets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtFeature.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtFeatureCommon.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicTestHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicToolHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFileCXX.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake C$:/msys64/mingw64/share/cmake/Modules/FindVulkan.cmake C$:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | .qtc/package-manager/auto-setup.cmake C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googlemock/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googlemock/cmake/gmock.pc.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googlemock/cmake/gmock_main.pc.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/cmake/Config.cmake.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/cmake/gtest.pc.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/cmake/gtest_main.pc.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/cmake/internal_utils.cmake C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/icon_1.qrc C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/QtInstallPaths.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/FindWrapAtomic.cmake C$:/msys64/mingw64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Config.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigExtras.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Dependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Targets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtFeature.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtFeatureCommon.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicTestHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicToolHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDependentOption.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFileCXX.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake C$:/msys64/mingw64/share/cmake/Modules/FindVulkan.cmake C$:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build .qtc/package-manager/auto-setup.cmake C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/icon_1.qrc C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/QtInstallPaths.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/FindWrapAtomic.cmake C$:/msys64/mingw64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Config.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigExtras.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Dependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Targets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtFeature.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtFeatureCommon.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicTestHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicToolHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFileCXX.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake C$:/msys64/mingw64/share/cmake/Modules/FindVulkan.cmake C$:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build .qtc/package-manager/auto-setup.cmake C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googlemock/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googlemock/cmake/gmock.pc.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googlemock/cmake/gmock_main.pc.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/CMakeLists.txt C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/cmake/Config.cmake.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/cmake/gtest.pc.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/cmake/gtest_main.pc.in C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/external/googletest/googletest/cmake/internal_utils.cmake C$:/Users/doron/OneDrive/Рабочий$ стол/flowers/icon_1.qrc C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Core/QtInstallPaths.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/FindWrapAtomic.cmake C$:/msys64/mingw64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Config.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigExtras.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Dependencies.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6Targets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtFeature.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtFeatureCommon.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicTestHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicToolHelpers.cmake C$:/msys64/mingw64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDependentOption.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFileCXX.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake C$:/msys64/mingw64/share/cmake/Modules/FindVulkan.cmake C$:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

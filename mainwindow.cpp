@@ -67,6 +67,7 @@ MainWindow::MainWindow(QWidget *parent)
     // Связь между кнопкой инфо и показом справки
     connect(actionInfo, &QAction::triggered, this, &MainWindow::showInfo);
 
+    setFixedSize(size());
 }
 
 // Деструктор MainWindow отвечает за освобождение ресурсов, используемых объектом.

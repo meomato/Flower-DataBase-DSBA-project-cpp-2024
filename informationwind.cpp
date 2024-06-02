@@ -13,6 +13,8 @@ InformationWind::InformationWind(QWidget *parent) :
 
     // Связь между кнопкой закрытия и функцией закрытия.
     connect(ui->toolButton_5, &QPushButton::clicked, this, &InformationWind::clicked_on_toolButton_5);
+
+    setFixedSize(size());
 }
 
 InformationWind::~InformationWind()

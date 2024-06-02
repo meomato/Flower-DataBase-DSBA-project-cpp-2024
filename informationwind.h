@@ -15,15 +15,14 @@ public:
     explicit InformationWind(QWidget *parent = nullptr);
     ~InformationWind();
 
-private:
-    Ui::InformationWind *ui;
-
-private slots:
-
     // Слот clicked_on_toolButton_5 отвечает за закрытие окна информации.
     // На вход ничего не принимает.
     // На выход ничего не возвращает.
     void clicked_on_toolButton_5();
+
+private:
+    Ui::InformationWind *ui;
+
 };
 
 #endif // INFORMATIONWIND_H
